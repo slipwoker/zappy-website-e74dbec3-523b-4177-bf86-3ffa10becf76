@@ -11959,6 +11959,298 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 ._access-icon {
   display: flex !important;
 }
+
+/* Added Component Styles */
+/* Payment & Contact Section */
+.payment-contact-section {
+  background: #FDF8F4;
+  padding: 80px 20px;
+  direction: rtl;
+  font-family: 'Cormorant Garamond', 'Fraunces', serif;
+  position: relative;
+  overflow: hidden;
+}
+
+.payment-contact-section::before {
+  content: '';
+  position: absolute;
+  top: -60px;
+  left: -60px;
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(circle, rgba(200, 71, 43, 0.06) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.payment-contact-section::after {
+  content: '';
+  position: absolute;
+  bottom: -40px;
+  right: -40px;
+  width: 180px;
+  height: 180px;
+  background: radial-gradient(circle, rgba(45, 27, 46, 0.05) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.payment-contact-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+  z-index: 1;
+}
+
+/* Grid Layout */
+.payment-contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  width: 100%;
+}
+
+/* Info Cards */
+.info-card {
+  background: #FFFFFF;
+  border: 1px solid rgba(45, 27, 46, 0.12);
+  border-radius: 16px;
+  padding: 36px 32px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 24px rgba(45, 27, 46, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 32px rgba(45, 27, 46, 0.1);
+}
+
+.card-accent {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 4px;
+  height: 100%;
+  border-radius: 0 16px 16px 0;
+}
+
+.payment-card .card-accent {
+  background: var(--gradient-primary, linear-gradient(135deg, #C8472B 0%, #A33520 100%));
+}
+
+.contact-card .card-accent {
+  background: var(--primary, #2D1B2E);
+}
+
+/* Card Icon */
+.card-icon-wrapper {
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.payment-card .card-icon-wrapper {
+  background: rgba(200, 71, 43, 0.08);
+  color: #C8472B;
+}
+
+.contact-card .card-icon-wrapper {
+  background: rgba(45, 27, 46, 0.06);
+  color: var(--primary, #2D1B2E);
+}
+
+.card-icon {
+  width: 26px;
+  height: 26px;
+}
+
+/* Card Typography */
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary, #2D1B2E);
+  margin: 0 0 12px 0;
+  letter-spacing: -0.01em;
+}
+
+.card-description {
+  font-size: 1.1rem;
+  color: #4A3B4C;
+  line-height: 1.7;
+  margin: 0 0 8px 0;
+}
+
+.card-description strong {
+  color: #C8472B;
+  font-weight: 700;
+}
+
+.card-note {
+  font-size: 0.95rem;
+  color: #7A6B7C;
+  margin: 0;
+  font-style: italic;
+}
+
+/* Contact Methods */
+.contact-methods {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 4px;
+}
+
+.contact-link {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  text-decoration: none;
+  padding: 14px 18px;
+  border-radius: 12px;
+  background: #FDF8F4;
+  border: 1px solid rgba(45, 27, 46, 0.08);
+  transition: background 0.25s ease, border-color 0.25s ease, transform 0.2s ease;
+}
+
+.contact-link:hover {
+  background: #F8EFE8;
+  border-color: rgba(200, 71, 43, 0.2);
+  transform: translateX(-4px);
+}
+
+.contact-link:focus-visible {
+  outline: 2px solid #C8472B;
+  outline-offset: 2px;
+}
+
+.contact-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #7A6B7C;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.contact-value {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--primary, #2D1B2E);
+  direction: ltr;
+  display: inline-block;
+  text-align: right;
+}
+
+.phone-link .contact-value {
+  color: #C8472B;
+  font-weight: 700;
+}
+
+.email-link .contact-value {
+  font-size: 1rem;
+}
+
+/* Chef Image */
+.chef-image-wrapper {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 8px 40px rgba(45, 27, 46, 0.1);
+  transition: transform 0.4s ease;
+}
+
+.chef-image-wrapper:hover {
+  transform: scale(1.02);
+}
+
+.chef-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  aspect-ratio: 4 / 3;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .payment-contact-section {
+    padding: 60px 16px;
+  }
+
+  .payment-contact-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .info-card {
+    padding: 28px 24px;
+  }
+
+  .card-title {
+    font-size: 1.35rem;
+  }
+
+  .card-description {
+    font-size: 1rem;
+  }
+
+  .contact-value {
+    font-size: 1.05rem;
+  }
+
+  .email-link .contact-value {
+    font-size: 0.9rem;
+  }
+
+  .chef-image-wrapper {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .payment-contact-section {
+    padding: 44px 12px;
+  }
+
+  .info-card {
+    padding: 22px 18px;
+    border-radius: 14px;
+  }
+
+  .card-icon-wrapper {
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    margin-bottom: 14px;
+  }
+
+  .card-icon {
+    width: 22px;
+    height: 22px;
+  }
+
+  .card-title {
+    font-size: 1.2rem;
+  }
+
+  .contact-link {
+    padding: 12px 14px;
+  }
+
+  .chef-image-wrapper {
+    border-radius: 14px;
+  }
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
