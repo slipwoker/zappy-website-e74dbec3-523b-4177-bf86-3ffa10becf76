@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-18T10:38:32.153Z",
+  "generated_at": "2026-07-18T10:41:15.743Z",
   "base_url": "https://yonatans-kitchen.zappy5.app",
   "currency": "ILS",
   "count": 8,
@@ -29,15 +29,15 @@
     },
     {
       "id": "c89b7cae-c5d5-4db3-a6e2-fc11ce7e6075",
-      "slug": "ampnds-gbynvt-0tngd9",
+      "slug": "ampnds-gbynvt-mjifo4",
       "name": "אמפנדס גבינות",
       "name_translations": {},
       "description": "",
-      "short_description": "אמפנדס עם שתי סוגי גבינות ",
+      "short_description": "אמפנדס עם שתי סוגי גבינות\n 1 ק״ג ",
       "sku": null,
       "brand": null,
-      "price": 50,
-      "base_price": 50,
+      "price": 135,
+      "base_price": 135,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -45,9 +45,9 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://yonatans-kitchen.zappy5.app/product/ampnds-gbynvt-0tngd9",
+      "url": "https://yonatans-kitchen.zappy5.app/product/ampnds-gbynvt-mjifo4",
       "categories": [],
-      "updated_at": "2026-07-18T07:30:49.044Z"
+      "updated_at": "2026-07-18T10:40:43.644Z"
     },
     {
       "id": "7c66e2b6-3541-43a5-9f9a-1294b10af57d",
