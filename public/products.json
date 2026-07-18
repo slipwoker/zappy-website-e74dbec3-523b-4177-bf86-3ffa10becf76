@@ -1,13 +1,13 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-18T07:25:55.225Z",
+  "generated_at": "2026-07-18T07:27:57.854Z",
   "base_url": "https://yonatans-kitchen.zappy5.app",
   "currency": "ILS",
   "count": 8,
   "products": [
     {
       "id": "f9247034-7faa-4300-8215-43946331b80b",
-      "slug": "nvdls-asyyty-397du0",
+      "slug": "nvdls-asyyty-lp1rq2",
       "name": "נודלס אסייתי",
       "name_translations": {},
       "description": "",
@@ -23,9 +23,9 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://yonatans-kitchen.zappy5.app/product/nvdls-asyyty-397du0",
+      "url": "https://yonatans-kitchen.zappy5.app/product/nvdls-asyyty-lp1rq2",
       "categories": [],
-      "updated_at": "2026-07-18T07:07:07.241Z"
+      "updated_at": "2026-07-18T07:27:54.092Z"
     },
     {
       "id": "c89b7cae-c5d5-4db3-a6e2-fc11ce7e6075",
