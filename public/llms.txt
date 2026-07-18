@@ -7,73 +7,73 @@
 ## Pages
 
 ### בית
-https://example.com
+https://yonatans-kitchen.zappy5.app
 מחפשים שף פרטי שמגיע הביתה ומכין אוכל ביתי ברמה של מסעדה? ב-Yonatan&#39;s Kitchen תוכלו להזמין אונליין חוויה קולינרית אישית, טעימה ובלתי נשכחת. כנסו לתפריט המנצח!
 
 ### גלריה
-https://example.com/gallery
+https://yonatans-kitchen.zappy5.app/gallery
 גלו גלריה עשירה של צילומי אוכל מקצועיים מבית Yonatan&#39;s Kitchen. כל מנה מספרת סיפור של טעם, צבע ואיכות ללא פשרות. צפו בתמונות שיעשו לכם חשק להזמין עוד היום!
 
 ### חוות דעת
-https://example.com/reviews
+https://yonatans-kitchen.zappy5.app/reviews
 חוות דעת אמיתיות מלקוחות שהזמינו שף פרטי הביתה מ-Yonatan&#39;s Kitchen. קראו איך הפכנו אירועים לחוויה קולינרית מושלמת. רוצים גם? הצטרפו למעגל המרוצים!
 
 ### אודות
-https://example.com/about
+https://yonatans-kitchen.zappy5.app/about
 הכירו את יונתן, השף הפרטי שמביא את התשוקה למטבח עד אליכם הביתה. גלו את החזון, המקצועיות והאהבה לאוכל איכותי שמגדירים כל מנה. סיפור ששווה לטעום!
 
 ### צור קשר
-https://example.com/contact
+https://yonatans-kitchen.zappy5.app/contact
 מוכנים להזמין שף פרטי שמגיע הביתה? צרו קשר עם Yonatan&#39;s Kitchen עוד היום! השאירו פרטים ונחזור אליכם עם הצעה מותאמת אישית לאירוע הקרוב. האוכל המושלם מחכה!
 
 ### Products
-https://example.com/products
+https://yonatans-kitchen.zappy5.app/products
 המוצרים שלנו - Yonatan’s Kitchen
 
 ### Cart
-https://example.com/cart
+https://yonatans-kitchen.zappy5.app/cart
 עגלת הקניות שלך
 
 ### Checkout
-https://example.com/checkout
+https://yonatans-kitchen.zappy5.app/checkout
 תשלום
 
 ### Login
-https://example.com/login
+https://yonatans-kitchen.zappy5.app/login
 התחברות לקוחות
 
 ### Account
-https://example.com/account
+https://yonatans-kitchen.zappy5.app/account
 החשבון שלי
 
 ### Order Success
-https://example.com/order-success
+https://yonatans-kitchen.zappy5.app/order-success
 תודה על ההזמנה
 
 ### Product Detail
-https://example.com/product/:slug
+https://yonatans-kitchen.zappy5.app/product/:slug
 פרטי המוצר - Yonatan’s Kitchen
 
 ### Category
-https://example.com/category/:slug
+https://yonatans-kitchen.zappy5.app/category/:slug
 מוצרים - Yonatan’s Kitchen
 
 ### תודה - Yonatan’s Kitchen
-https://example.com/thank-you
+https://yonatans-kitchen.zappy5.app/thank-you
 Yonatan’s Kitchen - תודה - Yonatan’s Kitchen
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://yonatans-kitchen.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://yonatans-kitchen.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://yonatans-kitchen.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -83,59 +83,59 @@ Information about WCAG compliance and accessibility features.
 **Total active products: 8**
 
 ### נודלס אסייתי
-https://example.com/product/nvdls-asyyty-6dlvb7
+https://yonatans-kitchen.zappy5.app/product/nvdls-asyyty-6dlvb7
 - Price: 90.00 ILS
 - Availability: In stock
 - Description: נודלס מוקפץ עם עוף או בקר יקרות מרינדה של רטבים
-- Image: https://example.com/assets/product-enhanced-1784357278275-oxn46k.webp
+- Image: https://yonatans-kitchen.zappy5.app/assets/product-enhanced-1784357278275-oxn46k.webp
 
 ### אמפנדס גבינות
-https://example.com/product/ampnds-gbynvt-nxnvy4
+https://yonatans-kitchen.zappy5.app/product/ampnds-gbynvt-nxnvy4
 - Price: 50.00 ILS
 - Availability: In stock
 - Description: אמפנדס עם שתי סוגי גבינות
-- Image: https://example.com/assets/image-product-image-1784356978334-ghfauu.webp
+- Image: https://yonatans-kitchen.zappy5.app/assets/image-product-image-1784356978334-ghfauu.webp
 
 ### סלט ישראלי 
-https://example.com/product/slt-yshraly-sya4sn
+https://yonatans-kitchen.zappy5.app/product/slt-yshraly-sya4sn
 - Price: 25.00 ILS
 - Availability: In stock
 - Description: סלט עם מלפפון גבינות עגבניה גמבות בצבעים פלפל חריף
-- Image: https://example.com/assets/image-product-image-1784356816451-08ehng.webp
+- Image: https://yonatans-kitchen.zappy5.app/assets/image-product-image-1784356816451-08ehng.webp
 
 ### דג מרוקאי חריף
-https://example.com/product/dg-mrvkay-chryp-yac2px
+https://yonatans-kitchen.zappy5.app/product/dg-mrvkay-chryp-yac2px
 - Price: 110.00 ILS
 - Availability: In stock
 - Description: תבשיל דג מרוקאי חריף עם עגבניות צלויות גמבות ועוד
-- Image: https://example.com/assets/product-enhanced-1784356582044-76tccp.webp
+- Image: https://yonatans-kitchen.zappy5.app/assets/product-enhanced-1784356582044-76tccp.webp
 
 ### תבשיל צלעות כבש
-https://example.com/product/tbshyl-tslavt-kbsh-ewbbjy
+https://yonatans-kitchen.zappy5.app/product/tbshyl-tslavt-kbsh-ewbbjy
 - Price: 190.00 ILS
 - Availability: In stock
 - Description: תבשיל צלעות כבש עם גמבות בצבעים בצל בצורות יין לבן ומרינדות של תבלינים
-- Image: https://example.com/assets/product-enhanced-1784356392999-nfzsv.webp
+- Image: https://yonatans-kitchen.zappy5.app/assets/product-enhanced-1784356392999-nfzsv.webp
 
 ### תבשיל אסאדו (Copy)
-https://example.com/product/tbshyl-asadv-copy-fkverf
+https://yonatans-kitchen.zappy5.app/product/tbshyl-asadv-copy-fkverf
 - Price: 100.00 ILS
 - Availability: In stock
-- Image: https://example.com/assets/product-enhanced-1784355802919-vmyf9.webp
+- Image: https://yonatans-kitchen.zappy5.app/assets/product-enhanced-1784355802919-vmyf9.webp
 
 ### חצ׳פורי
-https://example.com/product/chtspvry-uljihs
+https://yonatans-kitchen.zappy5.app/product/chtspvry-uljihs
 - Price: 140.00 ILS
 - Availability: In stock
 - Description: חצ׳פורי עם גבינות וביצה
-- Image: https://example.com/assets/product-enhanced-1784356127890-wnv5s3.webp
+- Image: https://yonatans-kitchen.zappy5.app/assets/product-enhanced-1784356127890-wnv5s3.webp
 
 ### תבשיל דגים
-https://example.com/product/tbshyl-dgym-i8zxwh
+https://yonatans-kitchen.zappy5.app/product/tbshyl-dgym-i8zxwh
 - Price: 75.00 ILS
 - Availability: In stock
 - Description: תבשיל דגים עם יין לבן
-- Image: https://example.com/assets/product-enhanced-1784355956395-g8sbuh.webp
+- Image: https://yonatans-kitchen.zappy5.app/assets/product-enhanced-1784355956395-g8sbuh.webp
 
 ---
 
@@ -159,8 +159,8 @@ Food & Beverage
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://example.com/sitemap.xml
-- Robots: https://example.com/robots.txt
-- Flattened page text (for LLMs): https://example.com/llms-full.txt
-- Products (JSON): https://example.com/products.json
-- Products (Google Merchant RSS): https://example.com/product-feed.xml
+- Sitemap (XML): https://yonatans-kitchen.zappy5.app/sitemap.xml
+- Robots: https://yonatans-kitchen.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://yonatans-kitchen.zappy5.app/llms-full.txt
+- Products (JSON): https://yonatans-kitchen.zappy5.app/products.json
+- Products (Google Merchant RSS): https://yonatans-kitchen.zappy5.app/product-feed.xml

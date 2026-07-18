@@ -1,7 +1,7 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-18T06:59:41.488Z",
-  "base_url": "https://example.com",
+  "generated_at": "2026-07-18T07:00:01.988Z",
+  "base_url": "https://yonatans-kitchen.zappy5.app",
   "currency": "ILS",
   "count": 8,
   "products": [
@@ -19,11 +19,11 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-enhanced-1784357278275-oxn46k.webp"
+        "https://yonatans-kitchen.zappy5.app/assets/product-enhanced-1784357278275-oxn46k.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/nvdls-asyyty-6dlvb7",
+      "url": "https://yonatans-kitchen.zappy5.app/product/nvdls-asyyty-6dlvb7",
       "categories": [],
       "updated_at": "2026-07-18T06:48:09.038Z"
     },
@@ -41,11 +41,11 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/image-product-image-1784356978334-ghfauu.webp"
+        "https://yonatans-kitchen.zappy5.app/assets/image-product-image-1784356978334-ghfauu.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/ampnds-gbynvt-nxnvy4",
+      "url": "https://yonatans-kitchen.zappy5.app/product/ampnds-gbynvt-nxnvy4",
       "categories": [],
       "updated_at": "2026-07-18T06:43:25.141Z"
     },
@@ -63,11 +63,11 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/image-product-image-1784356816451-08ehng.webp"
+        "https://yonatans-kitchen.zappy5.app/assets/image-product-image-1784356816451-08ehng.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/slt-yshraly-sya4sn",
+      "url": "https://yonatans-kitchen.zappy5.app/product/slt-yshraly-sya4sn",
       "categories": [],
       "updated_at": "2026-07-18T06:40:53.433Z"
     },
@@ -85,11 +85,11 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-enhanced-1784356582044-76tccp.webp"
+        "https://yonatans-kitchen.zappy5.app/assets/product-enhanced-1784356582044-76tccp.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/dg-mrvkay-chryp-yac2px",
+      "url": "https://yonatans-kitchen.zappy5.app/product/dg-mrvkay-chryp-yac2px",
       "categories": [],
       "updated_at": "2026-07-18T06:36:43.302Z"
     },
@@ -107,11 +107,11 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-enhanced-1784356392999-nfzsv.webp"
+        "https://yonatans-kitchen.zappy5.app/assets/product-enhanced-1784356392999-nfzsv.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/tbshyl-tslavt-kbsh-ewbbjy",
+      "url": "https://yonatans-kitchen.zappy5.app/product/tbshyl-tslavt-kbsh-ewbbjy",
       "categories": [],
       "updated_at": "2026-07-18T06:34:14.730Z"
     },
@@ -129,11 +129,11 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-enhanced-1784355802919-vmyf9.webp"
+        "https://yonatans-kitchen.zappy5.app/assets/product-enhanced-1784355802919-vmyf9.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/tbshyl-asadv-copy-fkverf",
+      "url": "https://yonatans-kitchen.zappy5.app/product/tbshyl-asadv-copy-fkverf",
       "categories": [],
       "updated_at": "2026-07-18T06:30:32.566Z"
     },
@@ -151,11 +151,11 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-enhanced-1784356127890-wnv5s3.webp"
+        "https://yonatans-kitchen.zappy5.app/assets/product-enhanced-1784356127890-wnv5s3.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/chtspvry-uljihs",
+      "url": "https://yonatans-kitchen.zappy5.app/product/chtspvry-uljihs",
       "categories": [],
       "updated_at": "2026-07-18T06:30:51.863Z"
     },
@@ -173,11 +173,11 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-enhanced-1784355956395-g8sbuh.webp"
+        "https://yonatans-kitchen.zappy5.app/assets/product-enhanced-1784355956395-g8sbuh.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/tbshyl-dgym-i8zxwh",
+      "url": "https://yonatans-kitchen.zappy5.app/product/tbshyl-dgym-i8zxwh",
       "categories": [],
       "updated_at": "2026-07-18T06:26:46.728Z"
     }

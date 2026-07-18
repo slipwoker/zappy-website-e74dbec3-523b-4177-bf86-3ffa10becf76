@@ -2,15 +2,15 @@
 <rss xmlns:g="http://base.google.com/ns/1.0" version="2.0">
   <channel>
     <title>Yonatan’s Kitchen</title>
-    <link>https://example.com</link>
+    <link>https://yonatans-kitchen.zappy5.app</link>
     <description>Product feed for Yonatan’s Kitchen</description>
-    <lastBuildDate>Sat, 18 Jul 2026 06:59:41 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2026 07:00:01 GMT</lastBuildDate>
     <item>
       <g:id>f9247034-7faa-4300-8215-43946331b80b</g:id>
       <g:title>נודלס אסייתי</g:title>
       <g:description>נודלס מוקפץ עם עוף או בקר יקרות מרינדה של רטבים</g:description>
-      <g:link>https://example.com/product/nvdls-asyyty-6dlvb7</g:link>
-      <g:image_link>https://example.com/assets/product-enhanced-1784357278275-oxn46k.webp</g:image_link>
+      <g:link>https://yonatans-kitchen.zappy5.app/product/nvdls-asyyty-6dlvb7</g:link>
+      <g:image_link>https://yonatans-kitchen.zappy5.app/assets/product-enhanced-1784357278275-oxn46k.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>90.00 ILS</g:price>
       <g:condition>new</g:condition>
@@ -21,8 +21,8 @@
       <g:id>c89b7cae-c5d5-4db3-a6e2-fc11ce7e6075</g:id>
       <g:title>אמפנדס גבינות</g:title>
       <g:description>אמפנדס עם שתי סוגי גבינות</g:description>
-      <g:link>https://example.com/product/ampnds-gbynvt-nxnvy4</g:link>
-      <g:image_link>https://example.com/assets/image-product-image-1784356978334-ghfauu.webp</g:image_link>
+      <g:link>https://yonatans-kitchen.zappy5.app/product/ampnds-gbynvt-nxnvy4</g:link>
+      <g:image_link>https://yonatans-kitchen.zappy5.app/assets/image-product-image-1784356978334-ghfauu.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>50.00 ILS</g:price>
       <g:condition>new</g:condition>
@@ -33,8 +33,8 @@
       <g:id>7c66e2b6-3541-43a5-9f9a-1294b10af57d</g:id>
       <g:title>סלט ישראלי </g:title>
       <g:description>סלט עם מלפפון גבינות עגבניה גמבות בצבעים פלפל חריף</g:description>
-      <g:link>https://example.com/product/slt-yshraly-sya4sn</g:link>
-      <g:image_link>https://example.com/assets/image-product-image-1784356816451-08ehng.webp</g:image_link>
+      <g:link>https://yonatans-kitchen.zappy5.app/product/slt-yshraly-sya4sn</g:link>
+      <g:image_link>https://yonatans-kitchen.zappy5.app/assets/image-product-image-1784356816451-08ehng.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>25.00 ILS</g:price>
       <g:condition>new</g:condition>
@@ -45,8 +45,8 @@
       <g:id>497961da-a8eb-48f0-9179-8eb5789360fc</g:id>
       <g:title>דג מרוקאי חריף</g:title>
       <g:description>תבשיל דג מרוקאי חריף עם עגבניות צלויות גמבות ועוד</g:description>
-      <g:link>https://example.com/product/dg-mrvkay-chryp-yac2px</g:link>
-      <g:image_link>https://example.com/assets/product-enhanced-1784356582044-76tccp.webp</g:image_link>
+      <g:link>https://yonatans-kitchen.zappy5.app/product/dg-mrvkay-chryp-yac2px</g:link>
+      <g:image_link>https://yonatans-kitchen.zappy5.app/assets/product-enhanced-1784356582044-76tccp.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>110.00 ILS</g:price>
       <g:condition>new</g:condition>
@@ -57,8 +57,8 @@
       <g:id>44fc4270-03e8-4f55-990d-9d8658af728a</g:id>
       <g:title>תבשיל צלעות כבש</g:title>
       <g:description>תבשיל צלעות כבש עם גמבות בצבעים בצל בצורות יין לבן ומרינדות של תבלינים</g:description>
-      <g:link>https://example.com/product/tbshyl-tslavt-kbsh-ewbbjy</g:link>
-      <g:image_link>https://example.com/assets/product-enhanced-1784356392999-nfzsv.webp</g:image_link>
+      <g:link>https://yonatans-kitchen.zappy5.app/product/tbshyl-tslavt-kbsh-ewbbjy</g:link>
+      <g:image_link>https://yonatans-kitchen.zappy5.app/assets/product-enhanced-1784356392999-nfzsv.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>190.00 ILS</g:price>
       <g:condition>new</g:condition>
@@ -69,8 +69,8 @@
       <g:id>b568f0cd-afba-4cd0-8489-a7116de7fe31</g:id>
       <g:title>תבשיל אסאדו (Copy)</g:title>
       <g:description>תבשיל אסאדו (Copy)</g:description>
-      <g:link>https://example.com/product/tbshyl-asadv-copy-fkverf</g:link>
-      <g:image_link>https://example.com/assets/product-enhanced-1784355802919-vmyf9.webp</g:image_link>
+      <g:link>https://yonatans-kitchen.zappy5.app/product/tbshyl-asadv-copy-fkverf</g:link>
+      <g:image_link>https://yonatans-kitchen.zappy5.app/assets/product-enhanced-1784355802919-vmyf9.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>100.00 ILS</g:price>
       <g:condition>new</g:condition>
@@ -81,8 +81,8 @@
       <g:id>1b6a489b-8de6-4e63-89e5-898b287fd0ac</g:id>
       <g:title>חצ׳פורי</g:title>
       <g:description>חצ׳פורי עם גבינות וביצה</g:description>
-      <g:link>https://example.com/product/chtspvry-uljihs</g:link>
-      <g:image_link>https://example.com/assets/product-enhanced-1784356127890-wnv5s3.webp</g:image_link>
+      <g:link>https://yonatans-kitchen.zappy5.app/product/chtspvry-uljihs</g:link>
+      <g:image_link>https://yonatans-kitchen.zappy5.app/assets/product-enhanced-1784356127890-wnv5s3.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>140.00 ILS</g:price>
       <g:condition>new</g:condition>
@@ -93,8 +93,8 @@
       <g:id>1e04af19-10ba-4298-95ca-1366155b74e7</g:id>
       <g:title>תבשיל דגים</g:title>
       <g:description>תבשיל דגים עם יין לבן</g:description>
-      <g:link>https://example.com/product/tbshyl-dgym-i8zxwh</g:link>
-      <g:image_link>https://example.com/assets/product-enhanced-1784355956395-g8sbuh.webp</g:image_link>
+      <g:link>https://yonatans-kitchen.zappy5.app/product/tbshyl-dgym-i8zxwh</g:link>
+      <g:image_link>https://yonatans-kitchen.zappy5.app/assets/product-enhanced-1784355956395-g8sbuh.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>75.00 ILS</g:price>
       <g:condition>new</g:condition>

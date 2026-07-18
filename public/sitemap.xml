@@ -1,151 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://example.com</loc>
+    <loc>https://yonatans-kitchen.zappy5.app</loc>
     <lastmod>2026-07-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://example.com/gallery</loc>
+    <loc>https://yonatans-kitchen.zappy5.app/gallery</loc>
     <lastmod>2026-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/reviews</loc>
+    <loc>https://yonatans-kitchen.zappy5.app/reviews</loc>
     <lastmod>2026-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/about</loc>
+    <loc>https://yonatans-kitchen.zappy5.app/about</loc>
     <lastmod>2026-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/contact</loc>
+    <loc>https://yonatans-kitchen.zappy5.app/contact</loc>
     <lastmod>2026-07-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/products</loc>
+    <loc>https://yonatans-kitchen.zappy5.app/products</loc>
     <lastmod>2026-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/cart</loc>
+    <loc>https://yonatans-kitchen.zappy5.app/cart</loc>
     <lastmod>2026-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/checkout</loc>
+    <loc>https://yonatans-kitchen.zappy5.app/checkout</loc>
     <lastmod>2026-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/login</loc>
+    <loc>https://yonatans-kitchen.zappy5.app/login</loc>
     <lastmod>2026-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/account</loc>
+    <loc>https://yonatans-kitchen.zappy5.app/account</loc>
     <lastmod>2026-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/order-success</loc>
+    <loc>https://yonatans-kitchen.zappy5.app/order-success</loc>
     <lastmod>2026-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/product/:slug</loc>
+    <loc>https://yonatans-kitchen.zappy5.app/product/:slug</loc>
     <lastmod>2026-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/category/:slug</loc>
+    <loc>https://yonatans-kitchen.zappy5.app/category/:slug</loc>
     <lastmod>2026-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/thank-you</loc>
+    <loc>https://yonatans-kitchen.zappy5.app/thank-you</loc>
     <lastmod>2026-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/privacy</loc>
-    <lastmod>2026-07-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://example.com/terms</loc>
+    <loc>https://yonatans-kitchen.zappy5.app/privacy</loc>
     <lastmod>2026-07-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://example.com/accessibility</loc>
+    <loc>https://yonatans-kitchen.zappy5.app/terms</loc>
     <lastmod>2026-07-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://example.com/product/nvdls-asyyty-6dlvb7</loc>
+    <loc>https://yonatans-kitchen.zappy5.app/accessibility</loc>
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://yonatans-kitchen.zappy5.app/product/nvdls-asyyty-6dlvb7</loc>
     <lastmod>2026-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/ampnds-gbynvt-nxnvy4</loc>
+    <loc>https://yonatans-kitchen.zappy5.app/product/ampnds-gbynvt-nxnvy4</loc>
     <lastmod>2026-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/slt-yshraly-sya4sn</loc>
+    <loc>https://yonatans-kitchen.zappy5.app/product/slt-yshraly-sya4sn</loc>
     <lastmod>2026-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/dg-mrvkay-chryp-yac2px</loc>
+    <loc>https://yonatans-kitchen.zappy5.app/product/dg-mrvkay-chryp-yac2px</loc>
     <lastmod>2026-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/tbshyl-tslavt-kbsh-ewbbjy</loc>
+    <loc>https://yonatans-kitchen.zappy5.app/product/tbshyl-tslavt-kbsh-ewbbjy</loc>
     <lastmod>2026-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/tbshyl-asadv-copy-fkverf</loc>
+    <loc>https://yonatans-kitchen.zappy5.app/product/tbshyl-asadv-copy-fkverf</loc>
     <lastmod>2026-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/chtspvry-uljihs</loc>
+    <loc>https://yonatans-kitchen.zappy5.app/product/chtspvry-uljihs</loc>
     <lastmod>2026-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/tbshyl-dgym-i8zxwh</loc>
+    <loc>https://yonatans-kitchen.zappy5.app/product/tbshyl-dgym-i8zxwh</loc>
     <lastmod>2026-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
