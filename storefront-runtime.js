@@ -14553,6 +14553,47 @@ document.querySelectorAll('.cta-btn-primary[href^="#"]').forEach(btn => {
   });
 });
 
+/* Added Component Script */
+/* Optional: Intersection Observer for scroll reveal animation */
+document.addEventListener('DOMContentLoaded', function() {
+  const cards = document.querySelectorAll('.testimonial-card');
+  const badges = document.querySelectorAll('.trust-badge');
+  
+  if ('IntersectionObserver' in window) {
+    const observerOptions = {
+      threshold: 0.15,
+      rootMargin: '0px 0px -30px 0px'
+    };
+    
+    const observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.style.opacity = '1';
+          entry.target.style.transform = 'translateY(0)';
+          observer.unobserve(entry.target);
+        }
+      });
+    }, observerOptions);
+    
+    cards.forEach(function(card, index) {
+      card.style.opacity = '0';
+      card.style.transform = 'translateY(24px)';
+      card.style.transition = 'opacity 0.5s ease ' + (index * 0.1) + 's, transform 0.5s ease ' + (index * 0.1) + 's';
+      observer.observe(card);
+    });
+    
+    badges.forEach(function(badge, index) {
+      badge.style.opacity = '0';
+      badge.style.transform = 'translateY(16px)';
+      badge.style.transition = 'opacity 0.4s ease ' + (0.4 + index * 0.1) + 's, transform 0.4s ease ' + (0.4 + index * 0.1) + 's';
+      observer.observe(badge);
+    });
+  } else {
+    cards.forEach(function(card) { card.style.opacity = '1'; });
+    badges.forEach(function(badge) { badge.style.opacity = '1'; });
+  }
+});
+
 
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 (function(){
