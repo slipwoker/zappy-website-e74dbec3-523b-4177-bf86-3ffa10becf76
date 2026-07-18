@@ -1,21 +1,21 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-18T10:00:23.581Z",
+  "generated_at": "2026-07-18T10:25:47.093Z",
   "base_url": "https://yonatans-kitchen.zappy5.app",
   "currency": "ILS",
   "count": 8,
   "products": [
     {
       "id": "f9247034-7faa-4300-8215-43946331b80b",
-      "slug": "nvdls-asyyty-lp1rq2",
+      "slug": "nvdls-asyyty-caak51",
       "name": "נודלס אסייתי",
       "name_translations": {},
-      "description": "",
+      "description": "<p><br></p>",
       "short_description": "נודלס מוקפץ עם עוף או בקר יקרות מרינדה של רטבים",
       "sku": null,
       "brand": null,
-      "price": 90,
-      "base_price": 90,
+      "price": 110,
+      "base_price": 110,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -23,9 +23,9 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://yonatans-kitchen.zappy5.app/product/nvdls-asyyty-lp1rq2",
+      "url": "https://yonatans-kitchen.zappy5.app/product/nvdls-asyyty-caak51",
       "categories": [],
-      "updated_at": "2026-07-18T07:27:54.092Z"
+      "updated_at": "2026-07-18T10:25:15.623Z"
     },
     {
       "id": "c89b7cae-c5d5-4db3-a6e2-fc11ce7e6075",
