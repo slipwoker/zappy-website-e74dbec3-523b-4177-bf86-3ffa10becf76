@@ -80,7 +80,62 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-_No products are currently configured._
+**Total active products: 8**
+
+### נודלס אסייתי
+https://example.com/product/nvdls-asyyty-6dlvb7
+- Price: 90.00 ILS
+- Availability: In stock
+- Description: נודלס מוקפץ עם עוף או בקר יקרות מרינדה של רטבים
+- Image: https://example.com/assets/product-enhanced-1784357278275-oxn46k.webp
+
+### אמפנדס גבינות
+https://example.com/product/ampnds-gbynvt-nxnvy4
+- Price: 50.00 ILS
+- Availability: In stock
+- Description: אמפנדס עם שתי סוגי גבינות
+- Image: https://example.com/assets/image-product-image-1784356978334-ghfauu.webp
+
+### סלט ישראלי 
+https://example.com/product/slt-yshraly-sya4sn
+- Price: 25.00 ILS
+- Availability: In stock
+- Description: סלט עם מלפפון גבינות עגבניה גמבות בצבעים פלפל חריף
+- Image: https://example.com/assets/image-product-image-1784356816451-08ehng.webp
+
+### דג מרוקאי חריף
+https://example.com/product/dg-mrvkay-chryp-yac2px
+- Price: 110.00 ILS
+- Availability: In stock
+- Description: תבשיל דג מרוקאי חריף עם עגבניות צלויות גמבות ועוד
+- Image: https://example.com/assets/product-enhanced-1784356582044-76tccp.webp
+
+### תבשיל צלעות כבש
+https://example.com/product/tbshyl-tslavt-kbsh-ewbbjy
+- Price: 190.00 ILS
+- Availability: In stock
+- Description: תבשיל צלעות כבש עם גמבות בצבעים בצל בצורות יין לבן ומרינדות של תבלינים
+- Image: https://example.com/assets/product-enhanced-1784356392999-nfzsv.webp
+
+### תבשיל אסאדו (Copy)
+https://example.com/product/tbshyl-asadv-copy-fkverf
+- Price: 100.00 ILS
+- Availability: In stock
+- Image: https://example.com/assets/product-enhanced-1784355802919-vmyf9.webp
+
+### חצ׳פורי
+https://example.com/product/chtspvry-uljihs
+- Price: 140.00 ILS
+- Availability: In stock
+- Description: חצ׳פורי עם גבינות וביצה
+- Image: https://example.com/assets/product-enhanced-1784356127890-wnv5s3.webp
+
+### תבשיל דגים
+https://example.com/product/tbshyl-dgym-i8zxwh
+- Price: 75.00 ILS
+- Availability: In stock
+- Description: תבשיל דגים עם יין לבן
+- Image: https://example.com/assets/product-enhanced-1784355956395-g8sbuh.webp
 
 ---
 

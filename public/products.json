@@ -1,8 +1,185 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-18T06:17:16.090Z",
+  "generated_at": "2026-07-18T06:53:30.695Z",
   "base_url": "https://example.com",
   "currency": "ILS",
-  "count": 0,
-  "products": []
+  "count": 8,
+  "products": [
+    {
+      "id": "f9247034-7faa-4300-8215-43946331b80b",
+      "slug": "nvdls-asyyty-6dlvb7",
+      "name": "נודלס אסייתי",
+      "name_translations": {},
+      "description": "",
+      "short_description": "נודלס מוקפץ עם עוף או בקר יקרות מרינדה של רטבים",
+      "sku": null,
+      "brand": null,
+      "price": 90,
+      "base_price": 90,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-enhanced-1784357278275-oxn46k.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/nvdls-asyyty-6dlvb7",
+      "categories": [],
+      "updated_at": "2026-07-18T06:48:09.038Z"
+    },
+    {
+      "id": "c89b7cae-c5d5-4db3-a6e2-fc11ce7e6075",
+      "slug": "ampnds-gbynvt-nxnvy4",
+      "name": "אמפנדס גבינות",
+      "name_translations": {},
+      "description": "",
+      "short_description": "אמפנדס עם שתי סוגי גבינות ",
+      "sku": null,
+      "brand": null,
+      "price": 50,
+      "base_price": 50,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/image-product-image-1784356978334-ghfauu.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/ampnds-gbynvt-nxnvy4",
+      "categories": [],
+      "updated_at": "2026-07-18T06:43:25.141Z"
+    },
+    {
+      "id": "7c66e2b6-3541-43a5-9f9a-1294b10af57d",
+      "slug": "slt-yshraly-sya4sn",
+      "name": "סלט ישראלי ",
+      "name_translations": {},
+      "description": "",
+      "short_description": "סלט עם מלפפון גבינות עגבניה גמבות בצבעים פלפל חריף ",
+      "sku": null,
+      "brand": null,
+      "price": 25,
+      "base_price": 25,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/image-product-image-1784356816451-08ehng.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/slt-yshraly-sya4sn",
+      "categories": [],
+      "updated_at": "2026-07-18T06:40:53.433Z"
+    },
+    {
+      "id": "497961da-a8eb-48f0-9179-8eb5789360fc",
+      "slug": "dg-mrvkay-chryp-yac2px",
+      "name": "דג מרוקאי חריף",
+      "name_translations": {},
+      "description": "",
+      "short_description": "תבשיל דג מרוקאי חריף עם עגבניות צלויות גמבות ועוד",
+      "sku": null,
+      "brand": null,
+      "price": 110,
+      "base_price": 110,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-enhanced-1784356582044-76tccp.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/dg-mrvkay-chryp-yac2px",
+      "categories": [],
+      "updated_at": "2026-07-18T06:36:43.302Z"
+    },
+    {
+      "id": "44fc4270-03e8-4f55-990d-9d8658af728a",
+      "slug": "tbshyl-tslavt-kbsh-ewbbjy",
+      "name": "תבשיל צלעות כבש",
+      "name_translations": {},
+      "description": "",
+      "short_description": "תבשיל צלעות כבש עם גמבות בצבעים בצל בצורות יין לבן ומרינדות של תבלינים",
+      "sku": null,
+      "brand": null,
+      "price": 190,
+      "base_price": 190,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-enhanced-1784356392999-nfzsv.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/tbshyl-tslavt-kbsh-ewbbjy",
+      "categories": [],
+      "updated_at": "2026-07-18T06:34:14.730Z"
+    },
+    {
+      "id": "b568f0cd-afba-4cd0-8489-a7116de7fe31",
+      "slug": "tbshyl-asadv-copy-fkverf",
+      "name": "תבשיל אסאדו (Copy)",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 100,
+      "base_price": 100,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-enhanced-1784355802919-vmyf9.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/tbshyl-asadv-copy-fkverf",
+      "categories": [],
+      "updated_at": "2026-07-18T06:30:32.566Z"
+    },
+    {
+      "id": "1b6a489b-8de6-4e63-89e5-898b287fd0ac",
+      "slug": "chtspvry-uljihs",
+      "name": "חצ׳פורי",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חצ׳פורי עם גבינות וביצה ",
+      "sku": null,
+      "brand": null,
+      "price": 140,
+      "base_price": 140,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-enhanced-1784356127890-wnv5s3.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/chtspvry-uljihs",
+      "categories": [],
+      "updated_at": "2026-07-18T06:30:51.863Z"
+    },
+    {
+      "id": "1e04af19-10ba-4298-95ca-1366155b74e7",
+      "slug": "tbshyl-dgym-i8zxwh",
+      "name": "תבשיל דגים",
+      "name_translations": {},
+      "description": "",
+      "short_description": "תבשיל דגים עם יין לבן ",
+      "sku": null,
+      "brand": null,
+      "price": 75,
+      "base_price": 75,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-enhanced-1784355956395-g8sbuh.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/tbshyl-dgym-i8zxwh",
+      "categories": [],
+      "updated_at": "2026-07-18T06:26:46.728Z"
+    }
+  ]
 }
