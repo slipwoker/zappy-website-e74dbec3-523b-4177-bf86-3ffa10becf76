@@ -4959,8 +4959,8 @@ Description: Yonatan’s Kitchen - תודה - Yonatan’s Kitchen
 ## Product Catalog
 
 ### נודלס אסייתי
-URL: https://yonatans-kitchen.zappy5.app/product/nvdls-asyyty-j7zkep
-Price: 185.00 ILS
+URL: https://yonatans-kitchen.zappy5.app/product/nvdls-asyyty-gek4n8
+Price: 159.00 ILS
 Availability: In stock
 
 ה
