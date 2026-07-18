@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-18T10:41:51.222Z",
+  "generated_at": "2026-07-18T10:42:50.877Z",
   "base_url": "https://yonatans-kitchen.zappy5.app",
   "currency": "ILS",
   "count": 8,
@@ -73,15 +73,15 @@
     },
     {
       "id": "497961da-a8eb-48f0-9179-8eb5789360fc",
-      "slug": "dg-mrvkay-chryp-x5ddk9",
+      "slug": "dg-mrvkay-chryp-ivgvop",
       "name": "דג מרוקאי חריף",
       "name_translations": {},
       "description": "",
-      "short_description": "תבשיל דג מרוקאי חריף עם עגבניות צלויות גמבות ועוד",
+      "short_description": "תבשיל דג דניס מרוקאי חריף עם עגבניות צלויות גמבות ועוד \n1 ק״ג",
       "sku": null,
       "brand": null,
-      "price": 110,
-      "base_price": 110,
+      "price": 325,
+      "base_price": 325,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -89,9 +89,9 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://yonatans-kitchen.zappy5.app/product/dg-mrvkay-chryp-x5ddk9",
+      "url": "https://yonatans-kitchen.zappy5.app/product/dg-mrvkay-chryp-ivgvop",
       "categories": [],
-      "updated_at": "2026-07-18T07:39:46.698Z"
+      "updated_at": "2026-07-18T10:42:19.232Z"
     },
     {
       "id": "44fc4270-03e8-4f55-990d-9d8658af728a",
