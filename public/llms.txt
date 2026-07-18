@@ -7,73 +7,73 @@
 ## Pages
 
 ### בית
-https://yonatan-s-kitchen-e74dbec3.zappy5.app
+https://example.com
 מחפשים שף פרטי שמגיע הביתה ומכין אוכל ביתי ברמה של מסעדה? ב-Yonatan&#39;s Kitchen תוכלו להזמין אונליין חוויה קולינרית אישית, טעימה ובלתי נשכחת. כנסו לתפריט המנצח!
 
 ### גלריה
-https://yonatan-s-kitchen-e74dbec3.zappy5.app/gallery
+https://example.com/gallery
 גלו גלריה עשירה של צילומי אוכל מקצועיים מבית Yonatan&#39;s Kitchen. כל מנה מספרת סיפור של טעם, צבע ואיכות ללא פשרות. צפו בתמונות שיעשו לכם חשק להזמין עוד היום!
 
 ### חוות דעת
-https://yonatan-s-kitchen-e74dbec3.zappy5.app/reviews
+https://example.com/reviews
 חוות דעת אמיתיות מלקוחות שהזמינו שף פרטי הביתה מ-Yonatan&#39;s Kitchen. קראו איך הפכנו אירועים לחוויה קולינרית מושלמת. רוצים גם? הצטרפו למעגל המרוצים!
 
 ### אודות
-https://yonatan-s-kitchen-e74dbec3.zappy5.app/about
+https://example.com/about
 הכירו את יונתן, השף הפרטי שמביא את התשוקה למטבח עד אליכם הביתה. גלו את החזון, המקצועיות והאהבה לאוכל איכותי שמגדירים כל מנה. סיפור ששווה לטעום!
 
 ### צור קשר
-https://yonatan-s-kitchen-e74dbec3.zappy5.app/contact
+https://example.com/contact
 מוכנים להזמין שף פרטי שמגיע הביתה? צרו קשר עם Yonatan&#39;s Kitchen עוד היום! השאירו פרטים ונחזור אליכם עם הצעה מותאמת אישית לאירוע הקרוב. האוכל המושלם מחכה!
 
 ### Products
-https://yonatan-s-kitchen-e74dbec3.zappy5.app/products
+https://example.com/products
 המוצרים שלנו - Yonatan’s Kitchen
 
 ### Cart
-https://yonatan-s-kitchen-e74dbec3.zappy5.app/cart
+https://example.com/cart
 עגלת הקניות שלך
 
 ### Checkout
-https://yonatan-s-kitchen-e74dbec3.zappy5.app/checkout
+https://example.com/checkout
 תשלום
 
 ### Login
-https://yonatan-s-kitchen-e74dbec3.zappy5.app/login
+https://example.com/login
 התחברות לקוחות
 
 ### Account
-https://yonatan-s-kitchen-e74dbec3.zappy5.app/account
+https://example.com/account
 החשבון שלי
 
 ### Order Success
-https://yonatan-s-kitchen-e74dbec3.zappy5.app/order-success
+https://example.com/order-success
 תודה על ההזמנה
 
 ### Product Detail
-https://yonatan-s-kitchen-e74dbec3.zappy5.app/product/:slug
+https://example.com/product/:slug
 פרטי המוצר - Yonatan’s Kitchen
 
 ### Category
-https://yonatan-s-kitchen-e74dbec3.zappy5.app/category/:slug
+https://example.com/category/:slug
 מוצרים - Yonatan’s Kitchen
 
 ### תודה - Yonatan’s Kitchen
-https://yonatan-s-kitchen-e74dbec3.zappy5.app/thank-you
+https://example.com/thank-you
 Yonatan’s Kitchen - תודה - Yonatan’s Kitchen
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://yonatan-s-kitchen-e74dbec3.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://yonatan-s-kitchen-e74dbec3.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://yonatan-s-kitchen-e74dbec3.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -104,8 +104,8 @@ Food & Beverage
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://yonatan-s-kitchen-e74dbec3.zappy5.app/sitemap.xml
-- Robots: https://yonatan-s-kitchen-e74dbec3.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://yonatan-s-kitchen-e74dbec3.zappy5.app/llms-full.txt
-- Products (JSON): https://yonatan-s-kitchen-e74dbec3.zappy5.app/products.json
-- Products (Google Merchant RSS): https://yonatan-s-kitchen-e74dbec3.zappy5.app/product-feed.xml
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
+- Products (JSON): https://example.com/products.json
+- Products (Google Merchant RSS): https://example.com/product-feed.xml
