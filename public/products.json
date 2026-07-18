@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-18T10:42:50.877Z",
+  "generated_at": "2026-07-18T10:44:24.670Z",
   "base_url": "https://yonatans-kitchen.zappy5.app",
   "currency": "ILS",
   "count": 8,
@@ -95,15 +95,15 @@
     },
     {
       "id": "44fc4270-03e8-4f55-990d-9d8658af728a",
-      "slug": "tbshyl-tslavt-tlh-3rhr45",
+      "slug": "tbshyl-tslavt-tlh-rf2zni",
       "name": "תבשיל צלעות טלה",
       "name_translations": {},
       "description": "",
-      "short_description": "תבשיל צלעות כבש עם גמבות בצבעים בצל בצורות יין לבן ומרינדות של תבלינים",
+      "short_description": "תבשיל צלעות כבש עם גמבות בצבעים בצל בצורות יין לבן ומרינדות של תבלינים \n1 ק״ג",
       "sku": null,
       "brand": null,
-      "price": 230,
-      "base_price": 230,
+      "price": 290,
+      "base_price": 290,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -111,9 +111,9 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://yonatans-kitchen.zappy5.app/product/tbshyl-tslavt-tlh-3rhr45",
+      "url": "https://yonatans-kitchen.zappy5.app/product/tbshyl-tslavt-tlh-rf2zni",
       "categories": [],
-      "updated_at": "2026-07-18T09:47:40.124Z"
+      "updated_at": "2026-07-18T10:43:53.023Z"
     },
     {
       "id": "b568f0cd-afba-4cd0-8489-a7116de7fe31",
