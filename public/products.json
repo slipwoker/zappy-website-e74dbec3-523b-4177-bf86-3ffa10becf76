@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-18T15:22:10.660Z",
+  "generated_at": "2026-07-18T15:22:49.960Z",
   "base_url": "https://yonatans-kitchen.zappy5.app",
   "currency": "ILS",
   "count": 8,
@@ -117,7 +117,7 @@
     },
     {
       "id": "b568f0cd-afba-4cd0-8489-a7116de7fe31",
-      "slug": "tbshyl-asadv-sc75q3",
+      "slug": "tbshyl-asadv-lign7r",
       "name": "תבשיל אסאדו ",
       "name_translations": {},
       "description": "",
@@ -133,9 +133,9 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://yonatans-kitchen.zappy5.app/product/tbshyl-asadv-sc75q3",
+      "url": "https://yonatans-kitchen.zappy5.app/product/tbshyl-asadv-lign7r",
       "categories": [],
-      "updated_at": "2026-07-18T15:21:39.147Z"
+      "updated_at": "2026-07-18T15:22:18.511Z"
     },
     {
       "id": "1b6a489b-8de6-4e63-89e5-898b287fd0ac",
