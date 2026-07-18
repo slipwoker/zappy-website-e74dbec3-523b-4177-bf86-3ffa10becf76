@@ -14424,6 +14424,89 @@ if (document.readyState === 'complete') {
 })();
 
 
+/* Added Component Script */
+document.addEventListener('DOMContentLoaded', function() {
+  // Intersection Observer for scroll reveal animation
+  const revealCards = document.querySelectorAll('.yr-review-card[data-reveal]');
+  
+  if ('IntersectionObserver' in window) {
+    const observerOptions = {
+      root: null,
+      rootMargin: '0px 0px -50px 0px',
+      threshold: 0.1
+    };
+
+    const revealObserver = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('yr-revealed');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, observerOptions);
+
+    revealCards.forEach(function(card) {
+      revealObserver.observe(card);
+    });
+  } else {
+    // Fallback: show all cards immediately
+    revealCards.forEach(function(card) {
+      card.classList.add('yr-revealed');
+    });
+  }
+
+  // Empty review card click handler
+  const emptyCard = document.querySelector('.yr-review-card--empty');
+  if (emptyCard) {
+    emptyCard.addEventListener('click', function(e) {
+      // Don't trigger if the button itself was clicked (it has its own handler)
+      if (e.target.closest('.yr-review-empty-btn')) return;
+      
+      // Scroll to or open review form - customize this selector as needed
+      const reviewForm = document.querySelector('#write-review, .review-form');
+      if (reviewForm) {
+        reviewForm.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        // Optional: focus on first input
+        const firstInput = reviewForm.querySelector('input, textarea');
+        if (firstInput) {
+          setTimeout(function() { firstInput.focus(); }, 500);
+        }
+      }
+    });
+
+    // Button click handler
+    const emptyBtn = emptyCard.querySelector('.yr-review-empty-btn');
+    if (emptyBtn) {
+      emptyBtn.addEventListener('click', function(e) {
+        e.stopPropagation();
+        const reviewForm = document.querySelector('#write-review, .review-form');
+        if (reviewForm) {
+          reviewForm.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          const firstInput = reviewForm.querySelector('input, textarea');
+          if (firstInput) {
+            setTimeout(function() { firstInput.focus(); }, 500);
+          }
+        }
+      });
+    }
+  }
+
+  // Add keyboard accessibility for empty card
+  if (emptyCard) {
+    emptyCard.setAttribute('tabindex', '0');
+    emptyCard.setAttribute('role', 'button');
+    emptyCard.setAttribute('aria-label', 'לחץ כדי לכתוב חוות דעת');
+    
+    emptyCard.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        emptyCard.click();
+      }
+    });
+  }
+});
+
+
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 (function(){
   try {
