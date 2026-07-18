@@ -1350,7 +1350,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
   </div>
 </section>
 
-<section class="reviews-testimonials-section" data-layout-spec="חוות דעת-testimonials">
+<section class="reviews-testimonials-section" data-layout-spec="חוות דעת-testimonials" id="reviews-testimonials-section">
   <div class="reviews-testimonials-section__container">
     <div class="reviews-testimonials-section__header">
       <h2 class="reviews-testimonials-section__title">הלקוחות שלנו מספרים</h2>
@@ -1358,9 +1358,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
       <div class="reviews-testimonials-section__accent" aria-hidden="true"></div>
     </div>
 
-    <div class="reviews-testimonials-section__grid">
-      <!-- Card 1 -->
-      <article class="reviews-testimonials-section__card">
+    <article class="reviews-testimonials-section__card">
         <div class="reviews-testimonials-section__card-quote">
           <svg class="reviews-testimonials-section__quote-icon" data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="currentColor"><path d="M9.983 3v7.391c0 5.704-3.731 9.57-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4v-10h9.983zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983v-10h9.983z"/></svg>
           <p class="reviews-testimonials-section__text">השירות של יונתן הוא פשוט מקצועי ברמה אחרת. התמונות באתר נראות מעוררות תיאבון בטירוף, והאוכל עצמו היה אפילו יותר טעים ממה שדמיינתי. המחירים הוגנים ושקופים לגמרי.</p>
@@ -1370,67 +1368,6 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
           <span class="reviews-testimonials-section__context">הזמנה אונליין לארוחת ערב משפחתית</span>
         </footer>
       </article>
-
-      <!-- Card 2 -->
-      <article class="reviews-testimonials-section__card">
-        <div class="reviews-testimonials-section__card-quote">
-          <svg class="reviews-testimonials-section__quote-icon" data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="currentColor"><path d="M9.983 3v7.391c0 5.704-3.731 9.57-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4v-10h9.983zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983v-10h9.983z"/></svg>
-          <p class="reviews-testimonials-section__text">הזמנתי מיונתן לארוחת צהריים למשרד, וכל הצוות התלהב. האוכל הגיע בזמן, חם וטרי, והמצגת הייתה מרשימה. אפשר לראות שמדובר בשף אמיתי שמבין באוכל ובשירות.</p>
-        </div>
-        <footer class="reviews-testimonials-section__card-footer">
-          <span class="reviews-testimonials-section__name">אבי כהן</span>
-          <span class="reviews-testimonials-section__context">ארוחת צהריים למשרד</span>
-        </footer>
-      </article>
-
-      <!-- Card 3 -->
-      <article class="reviews-testimonials-section__card">
-        <div class="reviews-testimonials-section__card-quote">
-          <svg class="reviews-testimonials-section__quote-icon" data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="currentColor"><path d="M9.983 3v7.391c0 5.704-3.731 9.57-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4v-10h9.983zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983v-10h9.983z"/></svg>
-          <p class="reviews-testimonials-section__text">חיפשתי שף פרטי שיגיע הביתה לאירוע יום הולדת, ויונתן היה הבחירה המושלמת. הוא הגיע בזמן, בישל מול האורחים והאוכל היה ברמה של מסעדת גורמה. ממליץ בחום!</p>
-        </div>
-        <footer class="reviews-testimonials-section__card-footer">
-          <span class="reviews-testimonials-section__name">דנה ברק</span>
-          <span class="reviews-testimonials-section__context">בישול ביתי לאירוע יום הולדת</span>
-        </footer>
-      </article>
-
-      <!-- Card 4 -->
-      <article class="reviews-testimonials-section__card">
-        <div class="reviews-testimonials-section__card-quote">
-          <svg class="reviews-testimonials-section__quote-icon" data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="currentColor"><path d="M9.983 3v7.391c0 5.704-3.731 9.57-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4v-10h9.983zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983v-10h9.983z"/></svg>
-          <p class="reviews-testimonials-section__text">האוכל של יונתן פשוט טעים בטירוף. כל מנה נראית כמו יצירת אומנות, והטעמים כל כך מאוזנים ומדויקים. המחירים ברורים מראש, אין הפתעות, וזה משהו שמאוד הערכתי.</p>
-        </div>
-        <footer class="reviews-testimonials-section__card-footer">
-          <span class="reviews-testimonials-section__name">יוסי אברהם</span>
-          <span class="reviews-testimonials-section__context">הזמנה אונליין לארוחת ערב זוגית</span>
-        </footer>
-      </article>
-
-      <!-- Card 5 -->
-      <article class="reviews-testimonials-section__card">
-        <div class="reviews-testimonials-section__card-quote">
-          <svg class="reviews-testimonials-section__quote-icon" data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="currentColor"><path d="M9.983 3v7.391c0 5.704-3.731 9.57-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4v-10h9.983zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983v-10h9.983z"/></svg>
-          <p class="reviews-testimonials-section__text">פניתי ליונתן בשאלה קטנה לגבי תפריט מיוחד, והוא ענה תוך דקות בסבלנות ובמקצועיות. הקשר האישי והזמינות שלו עושים את כל ההבדל. האוכל, כמובן, היה מעולה.</p>
-        </div>
-        <footer class="reviews-testimonials-section__card-footer">
-          <span class="reviews-testimonials-section__name">רונית גולן</span>
-          <span class="reviews-testimonials-section__context">שירות לקוחות ופנייה אישית</span>
-        </footer>
-      </article>
-
-      <!-- Card 6 -->
-      <article class="reviews-testimonials-section__card">
-        <div class="reviews-testimonials-section__card-quote">
-          <svg class="reviews-testimonials-section__quote-icon" data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="currentColor"><path d="M9.983 3v7.391c0 5.704-3.731 9.57-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4v-10h9.983zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983v-10h9.983z"/></svg>
-          <p class="reviews-testimonials-section__text">האמינות של יונתן היא מה שקנתה אותי. הוא הבטיח אוכל טרי ומדויק בזמן, וזה בדיוק מה שקיבלתי. אפשר לסמוך עליו בעיניים עצומות — מבין את החשיבות של דיוק וזמינות.</p>
-        </div>
-        <footer class="reviews-testimonials-section__card-footer">
-          <span class="reviews-testimonials-section__name">עומר שפירא</span>
-          <span class="reviews-testimonials-section__context">ארוחה משפחתית בסוף השבוע</span>
-        </footer>
-      </article>
-    </div>
   </div>
 </section>
 
