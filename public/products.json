@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-18T10:46:40.246Z",
+  "generated_at": "2026-07-18T10:48:00.784Z",
   "base_url": "https://yonatans-kitchen.zappy5.app",
   "currency": "ILS",
   "count": 8,
@@ -161,15 +161,15 @@
     },
     {
       "id": "1e04af19-10ba-4298-95ca-1366155b74e7",
-      "slug": "tbshyl-dgym-0du1o3",
+      "slug": "tbshyl-dgym-8jd65g",
       "name": "תבשיל דגים",
       "name_translations": {},
       "description": "",
-      "short_description": "תבשיל דגים עם יין לבן ",
+      "short_description": "תבשיל דגים דג לברק עם יין לבן פטריות תבלינים טימין בצל ועוד",
       "sku": null,
       "brand": null,
-      "price": 110,
-      "base_price": 110,
+      "price": 265,
+      "base_price": 265,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -177,9 +177,9 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://yonatans-kitchen.zappy5.app/product/tbshyl-dgym-0du1o3",
+      "url": "https://yonatans-kitchen.zappy5.app/product/tbshyl-dgym-8jd65g",
       "categories": [],
-      "updated_at": "2026-07-18T09:44:36.229Z"
+      "updated_at": "2026-07-18T10:47:28.916Z"
     }
   ]
 }

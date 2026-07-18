@@ -132,10 +132,10 @@ https://yonatans-kitchen.zappy5.app/product/chtspvry-rrg5fv
 - Image: https://yonatans-kitchen.zappy5.app/assets/image-product-image-1784365927435-w56qy6.webp
 
 ### תבשיל דגים
-https://yonatans-kitchen.zappy5.app/product/tbshyl-dgym-0du1o3
-- Price: 110.00 ILS
+https://yonatans-kitchen.zappy5.app/product/tbshyl-dgym-8jd65g
+- Price: 265.00 ILS
 - Availability: In stock
-- Description: תבשיל דגים עם יין לבן
+- Description: תבשיל דגים דג לברק עם יין לבן פטריות תבלינים טימין בצל ועוד
 - Image: https://yonatans-kitchen.zappy5.app/assets/product-enhanced-1784355956395-g8sbuh.webp
 
 ---
