@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-18T07:16:31.413Z",
+  "generated_at": "2026-07-18T07:20:04.206Z",
   "base_url": "https://yonatans-kitchen.zappy5.app",
   "currency": "ILS",
   "count": 8,
@@ -117,7 +117,7 @@
     },
     {
       "id": "b568f0cd-afba-4cd0-8489-a7116de7fe31",
-      "slug": "tbshyl-asadv-copy-fkverf",
+      "slug": "tbshyl-asadv-copy-d0kz0r",
       "name": "תבשיל אסאדו (Copy)",
       "name_translations": {},
       "description": "",
@@ -133,9 +133,9 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://yonatans-kitchen.zappy5.app/product/tbshyl-asadv-copy-fkverf",
+      "url": "https://yonatans-kitchen.zappy5.app/product/tbshyl-asadv-copy-d0kz0r",
       "categories": [],
-      "updated_at": "2026-07-18T06:30:32.566Z"
+      "updated_at": "2026-07-18T07:19:32.303Z"
     },
     {
       "id": "1b6a489b-8de6-4e63-89e5-898b287fd0ac",
