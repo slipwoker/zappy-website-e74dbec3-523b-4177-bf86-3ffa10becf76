@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-18T10:44:24.670Z",
+  "generated_at": "2026-07-18T10:45:41.561Z",
   "base_url": "https://yonatans-kitchen.zappy5.app",
   "currency": "ILS",
   "count": 8,
@@ -117,15 +117,15 @@
     },
     {
       "id": "b568f0cd-afba-4cd0-8489-a7116de7fe31",
-      "slug": "tbshyl-asadv-vo5k3z",
+      "slug": "tbshyl-asadv-xaeb9r",
       "name": "תבשיל אסאדו ",
       "name_translations": {},
       "description": "",
-      "short_description": null,
+      "short_description": "תבשיל אסאדו עם בצל ופטריות ועוד 1 ק״ג",
       "sku": null,
       "brand": null,
-      "price": 180,
-      "base_price": 180,
+      "price": 265,
+      "base_price": 265,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -133,9 +133,9 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://yonatans-kitchen.zappy5.app/product/tbshyl-asadv-vo5k3z",
+      "url": "https://yonatans-kitchen.zappy5.app/product/tbshyl-asadv-xaeb9r",
       "categories": [],
-      "updated_at": "2026-07-18T09:46:21.210Z"
+      "updated_at": "2026-07-18T10:45:10.117Z"
     },
     {
       "id": "1b6a489b-8de6-4e63-89e5-898b287fd0ac",

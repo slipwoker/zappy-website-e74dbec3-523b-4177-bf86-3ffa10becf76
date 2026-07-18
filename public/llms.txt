@@ -118,9 +118,10 @@ https://yonatans-kitchen.zappy5.app/product/tbshyl-tslavt-tlh-rf2zni
 - Image: https://yonatans-kitchen.zappy5.app/assets/product-enhanced-1784356392999-nfzsv.webp
 
 ### תבשיל אסאדו 
-https://yonatans-kitchen.zappy5.app/product/tbshyl-asadv-vo5k3z
-- Price: 180.00 ILS
+https://yonatans-kitchen.zappy5.app/product/tbshyl-asadv-xaeb9r
+- Price: 265.00 ILS
 - Availability: In stock
+- Description: תבשיל אסאדו עם בצל ופטריות ועוד 1 ק״ג
 - Image: https://yonatans-kitchen.zappy5.app/assets/product-enhanced-1784355802919-vmyf9.webp
 
 ### חצ׳פורי
