@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-18T15:22:49.960Z",
+  "generated_at": "2026-07-18T15:24:07.483Z",
   "base_url": "https://yonatans-kitchen.zappy5.app",
   "currency": "ILS",
   "count": 8,
@@ -139,11 +139,11 @@
     },
     {
       "id": "1b6a489b-8de6-4e63-89e5-898b287fd0ac",
-      "slug": "chtspvry-rrg5fv",
+      "slug": "chtspvry-6nm89m",
       "name": "חצ׳פורי",
       "name_translations": {},
       "description": "",
-      "short_description": "חצ׳פורי עם גבינות וביצה 1 ק״ג",
+      "short_description": "חצ׳פורי עם גבינות וביצה עלומה | 4 יחידות ",
       "sku": null,
       "brand": null,
       "price": 140,
@@ -155,9 +155,9 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://yonatans-kitchen.zappy5.app/product/chtspvry-rrg5fv",
+      "url": "https://yonatans-kitchen.zappy5.app/product/chtspvry-6nm89m",
       "categories": [],
-      "updated_at": "2026-07-18T10:46:08.774Z"
+      "updated_at": "2026-07-18T15:23:35.876Z"
     },
     {
       "id": "1e04af19-10ba-4298-95ca-1366155b74e7",
