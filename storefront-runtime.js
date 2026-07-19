@@ -14594,6 +14594,53 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 });
 
+/* Added Component Script */
+(function() {
+  const form = document.querySelector('.yr-review-form');
+  if (!form) return;
+
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    const name = form.querySelector('#review-name').value.trim();
+    const review = form.querySelector('#review-text').value.trim();
+    const ratingInput = form.querySelector('input[name="rating"]:checked');
+    
+    if (!name || !review) {
+      alert('נא למלא שם מלא וחוות דעת לפני השליחה.');
+      return;
+    }
+    
+    if (!ratingInput) {
+      alert('נא לבחור דירוג בכוכבים.');
+      return;
+    }
+    
+    // Simulate submission
+    const submitBtn = form.querySelector('.yr-review-form__submit');
+    const originalText = submitBtn.textContent;
+    submitBtn.textContent = 'שולח...';
+    submitBtn.disabled = true;
+    submitBtn.style.opacity = '0.7';
+    submitBtn.style.cursor = 'not-allowed';
+    
+    setTimeout(function() {
+      submitBtn.textContent = 'נשלח בהצלחה! ✓';
+      submitBtn.style.background = '#2D1B2E';
+      
+      form.reset();
+      
+      setTimeout(function() {
+        submitBtn.textContent = originalText;
+        submitBtn.disabled = false;
+        submitBtn.style.opacity = '1';
+        submitBtn.style.cursor = 'pointer';
+        submitBtn.style.background = '';
+      }, 2500);
+    }, 1200);
+  });
+})();
+
 
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 (function(){
