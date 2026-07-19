@@ -14641,6 +14641,22 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 })();
 
+/* Added Component Script */
+// Optional: Add intersection observer for scroll animations or lazy loading
+document.addEventListener('DOMContentLoaded', function() {
+  const scrollIndicator = document.querySelector('.yoni-hero-scroll-indicator');
+  if (scrollIndicator) {
+    window.addEventListener('scroll', function() {
+      if (window.scrollY > 100) {
+        scrollIndicator.style.opacity = '0';
+        scrollIndicator.style.transition = 'opacity 0.3s ease';
+      } else {
+        scrollIndicator.style.opacity = '1';
+      }
+    });
+  }
+});
+
 
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 (function(){

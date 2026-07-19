@@ -13890,6 +13890,311 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
     text-align: center;
   }
 }
+
+/* Added Component Styles */
+.yoni-hero-section {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: var(--primary, #2D1B2E);
+  direction: rtl;
+  font-family: 'Cormorant Garamond', 'Fraunces', serif;
+}
+
+.yoni-hero-bg-image {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.yoni-hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.yoni-hero-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(
+    180deg,
+    rgba(45, 27, 46, 0.75) 0%,
+    rgba(45, 27, 46, 0.65) 40%,
+    rgba(45, 27, 46, 0.8) 100%
+  );
+}
+
+.yoni-hero-container {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 120px 20px 80px;
+}
+
+.yoni-hero-content {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.yoni-hero-subtitle {
+  font-size: 1.1rem;
+  font-weight: 400;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 1.5rem;
+  font-family: 'Cormorant Garamond', 'Fraunces', serif;
+}
+
+.yoni-hero-title {
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+}
+
+.yoni-hero-title-accent {
+  display: block;
+  background: var(--gradient-primary, linear-gradient(135deg, #C8472B 0%, #A33520 100%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.yoni-hero-description {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 2.5rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.yoni-hero-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+
+.yoni-hero-btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--gradient-primary, linear-gradient(135deg, #C8472B 0%, #A33520 100%));
+  color: #ffffff;
+  padding: 16px 32px;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 25px rgba(200, 71, 43, 0.35);
+  border: none;
+  cursor: pointer;
+  font-family: 'Cormorant Garamond', 'Fraunces', serif;
+}
+
+.yoni-hero-btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 35px rgba(200, 71, 43, 0.5);
+}
+
+.yoni-hero-btn-primary:focus-visible {
+  outline: 3px solid #ffffff;
+  outline-offset: 3px;
+}
+
+.yoni-hero-btn-icon {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.yoni-hero-btn-primary:hover .yoni-hero-btn-icon {
+  transform: translateX(-5px);
+}
+
+.yoni-hero-btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  background: transparent;
+  color: #ffffff;
+  padding: 16px 32px;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  font-family: 'Cormorant Garamond', 'Fraunces', serif;
+}
+
+.yoni-hero-btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.7);
+  transform: translateY(-3px);
+}
+
+.yoni-hero-btn-secondary:focus-visible {
+  outline: 3px solid #ffffff;
+  outline-offset: 3px;
+}
+
+.yoni-hero-features {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.yoni-hero-feature-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.yoni-hero-feature-item:hover {
+  color: #ffffff;
+}
+
+.yoni-hero-feature-icon {
+  font-size: 1.3rem;
+}
+
+.yoni-hero-feature-text {
+  font-weight: 500;
+}
+
+.yoni-hero-scroll-indicator {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  animation: yoni-scroll-bounce 2s ease-in-out infinite;
+}
+
+.yoni-hero-scroll-text {
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.yoni-hero-scroll-line {
+  display: block;
+  width: 1px;
+  height: 40px;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0));
+}
+
+@keyframes yoni-scroll-bounce {
+  0%, 100% { transform: translateX(-50%) translateY(0); }
+  50% { transform: translateX(-50%) translateY(8px); }
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .yoni-hero-title {
+    font-size: 3rem;
+  }
+  
+  .yoni-hero-container {
+    padding: 100px 20px 70px;
+  }
+}
+
+@media (max-width: 768px) {
+  .yoni-hero-section {
+    min-height: 100vh;
+  }
+  
+  .yoni-hero-container {
+    padding: 90px 16px 60px;
+  }
+  
+  .yoni-hero-title {
+    font-size: 2.4rem;
+  }
+  
+  .yoni-hero-description {
+    font-size: 1.05rem;
+    line-height: 1.7;
+  }
+  
+  .yoni-hero-subtitle {
+    font-size: 0.95rem;
+    letter-spacing: 0.2em;
+  }
+  
+  .yoni-hero-actions {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+  }
+  
+  .yoni-hero-btn-primary,
+  .yoni-hero-btn-secondary {
+    width: 100%;
+    max-width: 320px;
+    justify-content: center;
+    padding: 14px 28px;
+    font-size: 1rem;
+  }
+  
+  .yoni-hero-features {
+    gap: 1.2rem;
+  }
+  
+  .yoni-hero-feature-item {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .yoni-hero-title {
+    font-size: 2rem;
+  }
+  
+  .yoni-hero-description {
+    font-size: 0.95rem;
+  }
+  
+  .yoni-hero-subtitle {
+    font-size: 0.8rem;
+  }
+  
+  .yoni-hero-features {
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .yoni-hero-scroll-indicator {
+    bottom: 20px;
+  }
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
