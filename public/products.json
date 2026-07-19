@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-19T07:39:06.100Z",
+  "generated_at": "2026-07-19T07:39:32.266Z",
   "base_url": "https://yonatans-kitchen.zappy5.app",
   "currency": "ILS",
   "count": 8,
@@ -139,7 +139,7 @@
     },
     {
       "id": "1b6a489b-8de6-4e63-89e5-898b287fd0ac",
-      "slug": "chtspvry-tp6enj",
+      "slug": "chtspvry-h2c60d",
       "name": "חצ׳פורי",
       "name_translations": {},
       "description": "",
@@ -155,9 +155,9 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://yonatans-kitchen.zappy5.app/product/chtspvry-tp6enj",
+      "url": "https://yonatans-kitchen.zappy5.app/product/chtspvry-h2c60d",
       "categories": [],
-      "updated_at": "2026-07-19T05:06:35.434Z"
+      "updated_at": "2026-07-19T07:39:28.395Z"
     },
     {
       "id": "1e04af19-10ba-4298-95ca-1366155b74e7",
