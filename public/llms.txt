@@ -79,11 +79,11 @@ Information about WCAG compliance and accessibility features.
 **Total active products: 8**
 
 ### נודלס אסייתי
-https://yonatans-kitchen.zappy5.app/product/nvdls-asyyty-gek4n8
+https://yonatans-kitchen.zappy5.app/product/nvdls-asyyty-jcz4yl
 - Price: 159.00 ILS
 - Availability: In stock
 - Description: נודלס מוקפץ עם עוף או בקר גזר בצל ירוק נבטים בצל וכרוב לבן | 500 גרם
-- Image: https://yonatans-kitchen.zappy5.app/assets/product-enhanced-1784357278275-oxn46k.webp
+- Image: https://yonatans-kitchen.zappy5.app/assets/product-enhanced-1784438190998-h66esf.webp
 
 ### אמפנדס גבינות
 https://yonatans-kitchen.zappy5.app/product/ampnds-gbynvt-e42wbl
