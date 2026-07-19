@@ -14425,94 +14425,92 @@ if (document.readyState === 'complete') {
 
 
 /* Added Component Script */
-(function() {
-  const form = document.getElementById('review-form');
-  const successMsg = document.getElementById('form-success');
-  if (!form) return;
+document.addEventListener('DOMContentLoaded', function() {
+  // Intersection Observer for scroll reveal animation
+  const revealCards = document.querySelectorAll('.yr-review-card[data-reveal]');
+  
+  if ('IntersectionObserver' in window) {
+    const observerOptions = {
+      root: null,
+      rootMargin: '0px 0px -50px 0px',
+      threshold: 0.1
+    };
 
-  form.addEventListener('submit', function(e) {
-    e.preventDefault();
+    const revealObserver = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('yr-revealed');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, observerOptions);
 
-    const name = form.querySelector('#reviewer-name').value.trim();
-    const rating = form.querySelector('input[name="rating"]:checked');
-    const review = form.querySelector('#review-textarea').value.trim();
-
-    if (!name || !rating || !review) {
-      alert('נא למלא את כל שדות החובה.');
-      return;
-    }
-
-    // Simulate submission
-    form.reset();
-    form.style.display = 'none';
-    successMsg.removeAttribute('hidden');
-
-    // Reset after delay for demo
-    setTimeout(function() {
-      successMsg.setAttribute('hidden', '');
-      form.style.display = '';
-    }, 5000);
-  });
-})();
-
-/* Added Component Script */
-(function() {
-  const statSection = document.querySelector('.yoni-stats-section');
-  if (!statSection) return;
-
-  const statNumbers = statSection.querySelectorAll('.yoni-stat-number');
-  let animated = false;
-
-  function animateCount(el) {
-    const target = parseFloat(el.getAttribute('data-count'));
-    const isDecimal = el.getAttribute('data-decimal') === 'true';
-    const duration = 2000;
-    const startTime = performance.now();
-
-    function update(currentTime) {
-      const elapsed = currentTime - startTime;
-      const progress = Math.min(elapsed / duration, 1);
-      const eased = 1 - Math.pow(1 - progress, 3);
-      const current = eased * target;
-      
-      if (isDecimal) {
-        el.textContent = current.toFixed(1);
-      } else {
-        el.textContent = Math.floor(current);
-      }
-
-      if (progress < 1) {
-        requestAnimationFrame(update);
-      } else {
-        el.textContent = isDecimal ? target.toFixed(1) : target;
-      }
-    }
-
-    requestAnimationFrame(update);
-  }
-
-  function handleIntersection(entries, observer) {
-    entries.forEach(entry => {
-      if (entry.isIntersecting && !animated) {
-        animated = true;
-        statNumbers.forEach(num => animateCount(num));
-        observer.unobserve(entry.target);
-      }
+    revealCards.forEach(function(card) {
+      revealObserver.observe(card);
+    });
+  } else {
+    // Fallback: show all cards immediately
+    revealCards.forEach(function(card) {
+      card.classList.add('yr-revealed');
     });
   }
 
-  const observer = new IntersectionObserver(handleIntersection, {
-    threshold: 0.3,
-    rootMargin: '0px 0px -50px 0px'
-  });
+  // Empty review card click handler
+  const emptyCard = document.querySelector('.yr-review-card--empty');
+  if (emptyCard) {
+    emptyCard.addEventListener('click', function(e) {
+      // Don't trigger if the button itself was clicked (it has its own handler)
+      if (e.target.closest('.yr-review-empty-btn')) return;
+      
+      // Scroll to or open review form - customize this selector as needed
+      const reviewForm = document.querySelector('#write-review, .review-form');
+      if (reviewForm) {
+        reviewForm.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        // Optional: focus on first input
+        const firstInput = reviewForm.querySelector('input, textarea');
+        if (firstInput) {
+          setTimeout(function() { firstInput.focus(); }, 500);
+        }
+      }
+    });
 
-  observer.observe(statSection);
-})();
+    // Button click handler
+    const emptyBtn = emptyCard.querySelector('.yr-review-empty-btn');
+    if (emptyBtn) {
+      emptyBtn.addEventListener('click', function(e) {
+        e.stopPropagation();
+        const reviewForm = document.querySelector('#write-review, .review-form');
+        if (reviewForm) {
+          reviewForm.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          const firstInput = reviewForm.querySelector('input, textarea');
+          if (firstInput) {
+            setTimeout(function() { firstInput.focus(); }, 500);
+          }
+        }
+      });
+    }
+  }
+
+  // Add keyboard accessibility for empty card
+  if (emptyCard) {
+    emptyCard.setAttribute('tabindex', '0');
+    emptyCard.setAttribute('role', 'button');
+    emptyCard.setAttribute('aria-label', 'לחץ כדי לכתוב חוות דעת');
+    
+    emptyCard.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        emptyCard.click();
+      }
+    });
+  }
+});
 
 /* Added Component Script */
-/* Optional: Intersection Observer for scroll animations */
-document.addEventListener('DOMContentLoaded', () => {
+// Optional: Intersection Observer for fade-in animation on scroll
+document.addEventListener('DOMContentLoaded', function() {
   const cards = document.querySelectorAll('.review-card');
+  
   if ('IntersectionObserver' in window) {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
@@ -14522,15 +14520,20 @@ document.addEventListener('DOMContentLoaded', () => {
           observer.unobserve(entry.target);
         }
       });
-    }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
-
-    cards.forEach(card => {
+    }, {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    });
+    
+    cards.forEach((card, index) => {
       card.style.opacity = '0';
-      card.style.transform = 'translateY(20px)';
+      card.style.transform = 'translateY(30px)';
       card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+      card.style.transitionDelay = (index * 0.1) + 's';
       observer.observe(card);
     });
   } else {
+    // Fallback for browsers without Intersection Observer support
     cards.forEach(card => {
       card.style.opacity = '1';
       card.style.transform = 'translateY(0)';
@@ -14539,69 +14542,102 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 /* Added Component Script */
+/* Optional: smooth scroll for anchor links */
+document.querySelectorAll('.cta-btn-primary[href^="#"]').forEach(btn => {
+  btn.addEventListener('click', function(e) {
+    const target = document.querySelector(this.getAttribute('href'));
+    if (target) {
+      e.preventDefault();
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  });
+});
+
+/* Added Component Script */
+/* Optional: Intersection Observer for scroll reveal animation */
 document.addEventListener('DOMContentLoaded', function() {
+  const cards = document.querySelectorAll('.testimonial-card');
+  const badges = document.querySelectorAll('.trust-badge');
+  
+  if ('IntersectionObserver' in window) {
+    const observerOptions = {
+      threshold: 0.15,
+      rootMargin: '0px 0px -30px 0px'
+    };
+    
+    const observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.style.opacity = '1';
+          entry.target.style.transform = 'translateY(0)';
+          observer.unobserve(entry.target);
+        }
+      });
+    }, observerOptions);
+    
+    cards.forEach(function(card, index) {
+      card.style.opacity = '0';
+      card.style.transform = 'translateY(24px)';
+      card.style.transition = 'opacity 0.5s ease ' + (index * 0.1) + 's, transform 0.5s ease ' + (index * 0.1) + 's';
+      observer.observe(card);
+    });
+    
+    badges.forEach(function(badge, index) {
+      badge.style.opacity = '0';
+      badge.style.transform = 'translateY(16px)';
+      badge.style.transition = 'opacity 0.4s ease ' + (0.4 + index * 0.1) + 's, transform 0.4s ease ' + (0.4 + index * 0.1) + 's';
+      observer.observe(badge);
+    });
+  } else {
+    cards.forEach(function(card) { card.style.opacity = '1'; });
+    badges.forEach(function(badge) { badge.style.opacity = '1'; });
+  }
+});
+
+/* Added Component Script */
+(function() {
   const form = document.querySelector('.yr-review-form');
   if (!form) return;
 
   form.addEventListener('submit', function(e) {
     e.preventDefault();
-
+    
     const name = form.querySelector('#review-name').value.trim();
-    const text = form.querySelector('#review-text').value.trim();
-    const rating = form.querySelector('input[name="rating"]:checked');
-
-    if (!name || !text || !rating) {
-      alert('אנא מלאו את כל השדות ובחרו דירוג.');
+    const review = form.querySelector('#review-text').value.trim();
+    const ratingInput = form.querySelector('input[name="rating"]:checked');
+    
+    if (!name || !review) {
+      alert('נא למלא שם מלא וחוות דעת לפני השליחה.');
       return;
     }
-
+    
+    if (!ratingInput) {
+      alert('נא לבחור דירוג בכוכבים.');
+      return;
+    }
+    
     // Simulate submission
-    const submitBtn = form.querySelector('.yr-submit-btn');
+    const submitBtn = form.querySelector('.yr-review-form__submit');
     const originalText = submitBtn.textContent;
     submitBtn.textContent = 'שולח...';
     submitBtn.disabled = true;
-
+    submitBtn.style.opacity = '0.7';
+    submitBtn.style.cursor = 'not-allowed';
+    
     setTimeout(function() {
-      alert('תודה רבה! הביקורת שלכם נשלחה בהצלחה.');
+      submitBtn.textContent = 'נשלח בהצלחה! ✓';
+      submitBtn.style.background = '#2D1B2E';
+      
       form.reset();
-      submitBtn.textContent = originalText;
-      submitBtn.disabled = false;
-    }, 800);
-  });
-});
-
-/* Added Component Script */
-(function() {
-  const faqItems = document.querySelectorAll('.yn-faq-item');
-
-  faqItems.forEach(item => {
-    const button = item.querySelector('.yn-faq-question');
-    const answer = item.querySelector('.yn-faq-answer');
-
-    button.addEventListener('click', () => {
-      const isActive = item.classList.contains('active');
-
-      // Close all items
-      faqItems.forEach(otherItem => {
-        otherItem.classList.remove('active');
-        const otherButton = otherItem.querySelector('.yn-faq-question');
-        if (otherButton) otherButton.setAttribute('aria-expanded', 'false');
-      });
-
-      // If the clicked item wasn't active, open it
-      if (!isActive) {
-        item.classList.add('active');
-        button.setAttribute('aria-expanded', 'true');
-      }
-    });
-
-    // Keyboard support
-    button.addEventListener('keydown', (e) => {
-      if (e.key === 'Enter' || e.key === ' ') {
-        e.preventDefault();
-        button.click();
-      }
-    });
+      
+      setTimeout(function() {
+        submitBtn.textContent = originalText;
+        submitBtn.disabled = false;
+        submitBtn.style.opacity = '1';
+        submitBtn.style.cursor = 'pointer';
+        submitBtn.style.background = '';
+      }, 2500);
+    }, 1200);
   });
 })();
 
@@ -15796,6 +15832,240 @@ document.addEventListener('DOMContentLoaded', function() {
   } catch (e) {}
 })();
 /* END ZAPPY_MOBILE_MENU_TOGGLE */
+
+
+/* ZAPPY_FAQ_ACCORDION_TOGGLE */
+(function(){
+  try {
+    if (window.__zappyFaqToggleInit) return;
+    window.__zappyFaqToggleInit = true;
+
+    var answerSel = '[class*="faq-answer"], [class*="faq-content"], [class*="faq-body"], [class*="faq-item__answer"], .accordion-content, .accordion-body';
+
+    // Pick the collapsible answer element for an item WITHOUT ever choosing a
+    // wrapper that contains the question/header toggle. Some AI-generated FAQs
+    // nest the clickable question INSIDE a .faq-content wrapper; collapsing that
+    // wrapper (max-height:0/opacity:0) would hide the question itself, leaving
+    // only the number visible and nothing to click to expand. Skipping any
+    // candidate that contains the toggle keeps the header visible and collapses
+    // only the real answer body.
+    function pickAnswer(item, question) {
+      var matches = item.querySelectorAll(answerSel);
+      for (var i = 0; i < matches.length; i++) {
+        var el = matches[i];
+        if (el === question) continue;
+        if (question && el.contains(question)) continue;
+        return el;
+      }
+      // No safe collapsible found (only wrappers that hold the toggle): leave
+      // the content expanded rather than hiding the question.
+      return null;
+    }
+
+    function initFaqToggle() {
+      var items = document.querySelectorAll('[class*="faq-item"], .accordion-item');
+      if (!items.length) return;
+
+      items.forEach(function(item) {
+        if (item.closest(answerSel)) return;
+        var question = item.querySelector(
+          '[class*="faq-question"], [class*="faq-header"], [class*="faq-item__question"], [class*="faq-item__btn"], [class*="faq-btn"], .accordion-header, .accordion-toggle'
+        );
+        if (!question) return;
+        if (question.__zappyFaqBound) return;
+        if (question.hasAttribute('onclick')) question.removeAttribute('onclick');
+        question.__zappyFaqBound = true;
+        question.style.cursor = 'pointer';
+
+        // Shared answer expand/collapse animation (used by both the <details>
+        // toggle path and the generic click path) so the two stay identical.
+        function expandFaqAnswer(answer) {
+          if (!answer) return;
+          answer.style.display = '';
+          answer.style.paddingTop = '';
+          answer.style.paddingBottom = '';
+          var inners = answer.querySelectorAll(answerSel);
+          inners.forEach(function(inn) {
+            inn.style.maxHeight = '';
+            inn.style.overflow = '';
+            inn.style.opacity = '';
+            inn.style.paddingTop = '';
+            inn.style.paddingBottom = '';
+          });
+          answer.style.transition = 'none';
+          answer.style.maxHeight = 'none';
+          answer.style.opacity = '0';
+          var realH = answer.scrollHeight;
+          answer.style.maxHeight = '0';
+          answer.offsetHeight;
+          answer.style.transition = 'max-height 0.35s ease, opacity 0.25s ease, padding 0.25s ease';
+          answer.style.maxHeight = realH + 'px';
+          answer.style.overflow = 'hidden';
+          answer.style.opacity = '1';
+        }
+        function collapseFaqAnswer(answer) {
+          if (!answer) return;
+          answer.style.transition = 'max-height 0.35s ease, opacity 0.25s ease, padding 0.25s ease';
+          answer.style.maxHeight = '0';
+          answer.style.overflow = 'hidden';
+          answer.style.opacity = '0';
+          answer.style.paddingTop = '0';
+          answer.style.paddingBottom = '0';
+        }
+
+        // Native <details>/<summary> accordions: the browser hides the answer
+        // whenever the <details> lacks the `open` attribute, so animating
+        // max-height alone is NOT enough — and a click handler that
+        // preventDefault()s the summary blocks the native open toggle, leaving
+        // the answer permanently clamped (max-height:0 inside a closed details).
+        // Drive the animation off the native `toggle` event instead — it fires
+        // no matter WHERE inside the summary the user clicks (text, icon,
+        // padding) — and let the browser own the `open` state. This is the
+        // modern FAQ markup the legacy click+preventDefault path never handled.
+        var detailsEl = (item.tagName === 'DETAILS')
+          ? item
+          : (question.closest ? question.closest('details') : null);
+        if (detailsEl) {
+          if (detailsEl.__zappyFaqToggleBound) return;
+          detailsEl.__zappyFaqToggleBound = true;
+          detailsEl.addEventListener('toggle', function() {
+            var isActive = detailsEl.open;
+            item.classList.toggle('active', isActive);
+            question.setAttribute('aria-expanded', isActive ? 'true' : 'false');
+            if (isActive) {
+              // Single-open accordion: close the OTHER open <details> in this
+              // FAQ list. Match by the SAME faq-item selector (NOT
+              // `details[class*="faq-item"]`) and resolve each item's
+              // <details>, because the faq-item / accordion-item class
+              // frequently lives on a WRAPPER (e.g.
+              // `<div class="faq-item"><details>…</details></div>`) rather
+              // than on the <details> itself — querying for class-bearing
+              // <details> would miss those siblings and let multiple answers
+              // stay open.
+              var parent = item.parentElement;
+              if (parent) {
+                var sibItems = parent.querySelectorAll('[class*="faq-item"], .accordion-item');
+                sibItems.forEach(function(sibItem) {
+                  if (sibItem === item) return;
+                  var sibDetails = (sibItem.tagName === 'DETAILS') ? sibItem : sibItem.querySelector('details');
+                  if (sibDetails && sibDetails !== detailsEl && sibDetails.open) sibDetails.open = false;
+                });
+              }
+              expandFaqAnswer(pickAnswer(item, question));
+            } else {
+              collapseFaqAnswer(pickAnswer(item, question));
+            }
+            var chevron = question.querySelector('[class*="chevron"], [class*="icon"], svg');
+            if (chevron) {
+              chevron.style.transform = isActive ? 'rotate(180deg)' : 'rotate(0deg)';
+              chevron.style.transition = 'transform 0.3s ease';
+            }
+          });
+          if (detailsEl.open) { item.classList.add('active'); expandFaqAnswer(pickAnswer(item, question)); }
+          return;
+        }
+
+        question.addEventListener('click', function(e) {
+          e.preventDefault();
+          e.stopPropagation();
+
+          var parent = item.parentElement;
+          if (parent) {
+            var siblings = parent.querySelectorAll('[class*="faq-item"], .accordion-item');
+            siblings.forEach(function(sib) {
+              if (sib !== item && sib.classList.contains('active')) {
+                sib.classList.remove('active');
+                var sibQ = sib.querySelector('[class*="faq-question"], [class*="faq-header"], [class*="faq-item__question"], [class*="faq-item__btn"], [class*="faq-btn"], .accordion-header');
+                if (sibQ) sibQ.setAttribute('aria-expanded', 'false');
+                var sibA = pickAnswer(sib, sibQ);
+                if (sibA) {
+                  sibA.style.maxHeight = '0';
+                  sibA.style.overflow = 'hidden';
+                  sibA.style.opacity = '0';
+                  sibA.style.paddingTop = '0';
+                  sibA.style.paddingBottom = '0';
+                }
+              }
+            });
+          }
+
+          var isActive = item.classList.toggle('active');
+          question.setAttribute('aria-expanded', isActive ? 'true' : 'false');
+
+          var answer = pickAnswer(item, question);
+          if (answer) {
+            if (isActive) {
+              answer.style.display = '';
+              answer.style.paddingTop = '';
+              answer.style.paddingBottom = '';
+              var inners = answer.querySelectorAll(answerSel);
+              inners.forEach(function(inn) {
+                inn.style.maxHeight = '';
+                inn.style.overflow = '';
+                inn.style.opacity = '';
+                inn.style.paddingTop = '';
+                inn.style.paddingBottom = '';
+              });
+              answer.style.transition = 'none';
+              answer.style.maxHeight = 'none';
+              answer.style.opacity = '0';
+              var realH = answer.scrollHeight;
+              answer.style.maxHeight = '0';
+              answer.offsetHeight;
+              answer.style.transition = 'max-height 0.35s ease, opacity 0.25s ease, padding 0.25s ease';
+              answer.style.maxHeight = realH + 'px';
+              answer.style.overflow = 'hidden';
+              answer.style.opacity = '1';
+            } else {
+              answer.style.transition = 'max-height 0.35s ease, opacity 0.25s ease, padding 0.25s ease';
+              answer.style.maxHeight = '0';
+              answer.style.overflow = 'hidden';
+              answer.style.opacity = '0';
+              answer.style.paddingTop = '0';
+              answer.style.paddingBottom = '0';
+            }
+          }
+
+          var chevron = question.querySelector('[class*="chevron"], [class*="icon"], svg');
+          if (chevron) {
+            chevron.style.transform = isActive ? 'rotate(180deg)' : 'rotate(0deg)';
+            chevron.style.transition = 'transform 0.3s ease';
+          }
+        });
+      });
+
+      items.forEach(function(item) {
+        if (item.classList.contains('active')) return;
+        // Native <details> manage their own open/closed visibility; never clamp
+        // an open one to max-height:0 (its toggle handler already expanded it).
+        if (item.tagName === 'DETAILS' && item.open) return;
+        if (item.closest(answerSel)) return;
+        var question = item.querySelector('[class*="faq-question"], [class*="faq-header"], [class*="faq-item__question"], [class*="faq-item__btn"], [class*="faq-btn"], .accordion-header, .accordion-toggle');
+        // No clickable question/header toggle exists → this is a STATIC FAQ
+        // (e.g. a grid of badge + always-visible content), not an accordion.
+        // Collapsing it here would hide the content with no way to expand it,
+        // since no click handler was bound above. Leave it fully visible.
+        if (!question) return;
+        var answer = pickAnswer(item, question);
+        if (answer) {
+          answer.style.maxHeight = '0';
+          answer.style.overflow = 'hidden';
+          answer.style.opacity = '0';
+          answer.style.paddingTop = '0';
+          answer.style.paddingBottom = '0';
+          answer.style.transition = 'max-height 0.35s ease, opacity 0.25s ease, padding 0.25s ease';
+        }
+      });
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initFaqToggle, { once: true });
+    } else {
+      initFaqToggle();
+    }
+  } catch (e) {}
+})();
+/* END ZAPPY_FAQ_ACCORDION_TOGGLE */
 
 
 /* ZAPPY_RUNTIME_CONTRAST_FIX */
