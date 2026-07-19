@@ -834,7 +834,10 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     // Preview pages are served by the current Zappy origin, which may be a
     // remote tunnel/QA host rather than this server's baked SERVER_URL.
     // Deployed sites are static and must call the public Zappy API (never localhost).
-    window.ZAPPY_API_BASE = "https://api.zappy5.com"</script>
+    window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview'))
+      ? window.location.origin
+      : "https://api.zappy5.com";
+  </script>
   
     <div class="mobile-search-panel" id="mobile-search-panel">
       <div class="search-wrapper">
@@ -966,7 +969,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
 
 <section id="layout-1784445663551-dup-1784445822347" class="layout-section hero-section" data-zappy-component="true" style="width: 100vw; margin-left: calc(50% - 50vw); height: 100vh; min-height: 100vh; position: relative; display: flex; align-items: center; justify-content: center; direction: rtl; overflow: hidden; box-sizing: border-box; background-color: rgb(45, 27, 46); opacity: 1;" data-component-id="hero-fullscreen-bg">
   <div class="container" style="position: relative; max-width: 1200px; width: 100%; margin: 0px auto; padding: 80px 1.5rem; text-align: center; box-sizing: border-box;">
-    <h1 style="font-size: 56px; font-weight: 700; color: rgb(255, 255, 255); margin-bottom: 24px; font-family: &quot;Cormorant Garamond&quot;, Fraunces, serif;">שימו לב!<br /><br />האתר נועד להציג את השירות, התפריטים והתאריכים הפנויים להזמנה.<br /><br />בשלב זה לא ניתן להשלים הזמנה דרך האתר. לאחר שבחרתם את המועד והתפריט המתאים לכם, יש ליצור קשר עם יונתן כדי לבצע את ההזמנה באופן אישי ולקבל אישור על זמינות התאריך.<br /><br />📞 להזמנה ותיאום: התקשרו ליונתן<br /><br />053-3363662</h1>
+    <h1 style="font-size: 56px; font-weight: 700; color: rgb(255, 255, 255); margin-bottom: 24px; font-family: &quot;Cormorant Garamond&quot;, Fraunces, serif;"><br /><br />שימו לב!<br /><br />האתר נועד להציג את השירות, התפריטים והתאריכים הפנויים להזמנה.<br /><br />בשלב זה לא ניתן להשלים הזמנה דרך האתר. לאחר שבחרתם את המועד והתפריט המתאים לכם, יש ליצור קשר עם יונתן כדי לבצע את ההזמנה באופן אישי ולקבל אישור על זמינות התאריך.<br /><br />התשלום מתבצע במזומן או באמצעות Bit, במעמד ההזמנה או כפי שיסוכם מראש.<br />טלפון 053-3363662<br /><br />📞 להזמנה ותיאום: התקשרו ליונתן.<br /></h1>
     
   </div>
 </section>
@@ -987,12 +990,12 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
   <div class="footer-container">
     <div class="footer-top">
       <div class="footer-col footer-brand-col">
-        <img src="/assets/yonatan-s-kitchen-food-beverage-logo.webp" alt="Yonatan’s Kitchen" class="logo" data-element-type="image" data-element-id="img-1784366677562-vai57czr7" data-zappy-footer-image="true" decoding="async" width="35" height="35" />
-        <p class="footer-tagline">מטבח עילי המשלב חומרי גלם טריים, טכניקות קלאסיות והגשה מוקפדת. כל מנה מספרת סיפור. מגיע עד הבית עם כול חומרי הגלם.</p>
+        <img src="/assets/yonatan-s-kitchen-food-beverage-logo.webp" alt="Yonatan’s Kitchen" class="logo" data-element-type="image" data-element-id="img-1784366677562-vai57czr7" data-zappy-footer-image="true" style decoding="async" width="35" height="35" />
+        <p class="footer-tagline" style>מטבח עילי המשלב חומרי גלם טריים, טכניקות קלאסיות והגשה מוקפדת. כל מנה מספרת סיפור. מגיע עד הבית עם כול חומרי הגלם.</p>
       </div>
       <div class="footer-col footer-links-col">
         <h4>ניווט מהיר</h4>
-        <ul class="footer-links"><li><a href="/">בית</a></li><li><a href="/gallery">גלריה</a></li><li><a href="/about">אודות</a></li><li><a href="/contact">צור קשר</a></li></ul>
+        <ul class="footer-links" style><li><a href="/">בית</a></li><li><a href="/gallery">גלריה</a></li><li><a href="/about">אודות</a></li><li><a href="/contact">צור קשר</a></li></ul>
       </div>
       <div class="footer-col footer-contact-col">
         <h4>צור קשר</h4>
@@ -1011,7 +1014,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
       <p style="margin-top: 12px; font-weight: 700; font-size: 14px; color: #D9A441;">📞 להזמנות: 053-3363662 | yonatanfortnite4@gmail.com</p></div>
       <div class="footer-col footer-hours-col">
         <h4>שעות פעילות</h4>
-        <ul class="footer-hours"><li><a href="/"><span class="hours-day">ימים א’–שבת</span> <span class="hours-time">09:00–17:00</span></a></li></ul>
+        <ul class="footer-hours" style><li><a href="/"><span class="hours-day">ימים א’–שבת</span> <span class="hours-time">09:00–17:00</span></a></li></ul>
       </div>
       <div class="footer-col footer-social-col">
         <h4>עקבו אחרינו</h4>
