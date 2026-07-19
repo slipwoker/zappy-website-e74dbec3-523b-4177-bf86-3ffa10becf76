@@ -12885,6 +12885,221 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
     text-align: center;
   }
 }
+
+/* Added Component Styles */
+.yoni-stats-section {
+  background: var(--primary, #2D1B2E);
+  padding: 80px 20px;
+  direction: rtl;
+  font-family: 'Cormorant Garamond', 'Fraunces', serif;
+  position: relative;
+  overflow: hidden;
+}
+
+.yoni-stats-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(ellipse at 30% 20%, rgba(200, 71, 43, 0.12) 0%, transparent 60%),
+              radial-gradient(ellipse at 70% 80%, rgba(200, 71, 43, 0.08) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+.yoni-stats-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.yoni-stats-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.yoni-stats-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 16px 0;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+}
+
+.yoni-stats-subtitle {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.75);
+  margin: 0;
+  font-weight: 400;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+.yoni-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 28px;
+}
+
+.yoni-stat-card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+  padding: 36px 24px 30px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease, border-color 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.yoni-stat-card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background: var(--gradient-primary, linear-gradient(135deg, #C8472B 0%, #A33520 100%));
+  border-radius: 0 0 4px 4px;
+  opacity: 0;
+  transition: opacity 0.3s ease, width 0.3s ease;
+}
+
+.yoni-stat-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.yoni-stat-card:hover::after {
+  opacity: 1;
+  width: 80px;
+}
+
+.yoni-stat-icon-wrapper {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  background: rgba(200, 71, 43, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.yoni-stat-card:hover .yoni-stat-icon-wrapper {
+  background: rgba(200, 71, 43, 0.25);
+  transform: scale(1.05);
+}
+
+.yoni-stat-icon {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+  opacity: 0.9;
+  max-width: 100%;
+  height: auto;
+}
+
+.yoni-stat-number {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1;
+  margin-bottom: 8px;
+  letter-spacing: -1px;
+  font-family: 'Fraunces', 'Cormorant Garamond', serif;
+  transition: color 0.3s ease;
+}
+
+.yoni-stat-card:hover .yoni-stat-number {
+  color: #C8472B;
+}
+
+.yoni-stat-label {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 8px;
+  line-height: 1.3;
+}
+
+.yoni-stat-desc {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .yoni-stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+  .yoni-stats-title {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .yoni-stats-section {
+    padding: 60px 16px;
+  }
+  .yoni-stats-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .yoni-stats-title {
+    font-size: 1.9rem;
+  }
+  .yoni-stats-subtitle {
+    font-size: 1.05rem;
+  }
+  .yoni-stats-header {
+    margin-bottom: 40px;
+  }
+  .yoni-stat-card {
+    padding: 28px 20px 24px;
+  }
+  .yoni-stat-number {
+    font-size: 2.6rem;
+  }
+  .yoni-stat-icon-wrapper {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 16px;
+  }
+  .yoni-stat-icon {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 380px) {
+  .yoni-stats-title {
+    font-size: 1.6rem;
+  }
+  .yoni-stat-number {
+    font-size: 2.2rem;
+  }
+  .yoni-stat-card {
+    padding: 22px 16px 20px;
+  }
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,

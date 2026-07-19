@@ -14455,6 +14455,60 @@ if (document.readyState === 'complete') {
   });
 })();
 
+/* Added Component Script */
+(function() {
+  const statSection = document.querySelector('.yoni-stats-section');
+  if (!statSection) return;
+
+  const statNumbers = statSection.querySelectorAll('.yoni-stat-number');
+  let animated = false;
+
+  function animateCount(el) {
+    const target = parseFloat(el.getAttribute('data-count'));
+    const isDecimal = el.getAttribute('data-decimal') === 'true';
+    const duration = 2000;
+    const startTime = performance.now();
+
+    function update(currentTime) {
+      const elapsed = currentTime - startTime;
+      const progress = Math.min(elapsed / duration, 1);
+      const eased = 1 - Math.pow(1 - progress, 3);
+      const current = eased * target;
+      
+      if (isDecimal) {
+        el.textContent = current.toFixed(1);
+      } else {
+        el.textContent = Math.floor(current);
+      }
+
+      if (progress < 1) {
+        requestAnimationFrame(update);
+      } else {
+        el.textContent = isDecimal ? target.toFixed(1) : target;
+      }
+    }
+
+    requestAnimationFrame(update);
+  }
+
+  function handleIntersection(entries, observer) {
+    entries.forEach(entry => {
+      if (entry.isIntersecting && !animated) {
+        animated = true;
+        statNumbers.forEach(num => animateCount(num));
+        observer.unobserve(entry.target);
+      }
+    });
+  }
+
+  const observer = new IntersectionObserver(handleIntersection, {
+    threshold: 0.3,
+    rootMargin: '0px 0px -50px 0px'
+  });
+
+  observer.observe(statSection);
+})();
+
 
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 (function(){
