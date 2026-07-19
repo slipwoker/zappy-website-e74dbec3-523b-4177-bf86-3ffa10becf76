@@ -14538,6 +14538,38 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
+/* Added Component Script */
+document.addEventListener('DOMContentLoaded', function() {
+  const form = document.querySelector('.yr-review-form');
+  if (!form) return;
+
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    const name = form.querySelector('#review-name').value.trim();
+    const text = form.querySelector('#review-text').value.trim();
+    const rating = form.querySelector('input[name="rating"]:checked');
+
+    if (!name || !text || !rating) {
+      alert('אנא מלאו את כל השדות ובחרו דירוג.');
+      return;
+    }
+
+    // Simulate submission
+    const submitBtn = form.querySelector('.yr-submit-btn');
+    const originalText = submitBtn.textContent;
+    submitBtn.textContent = 'שולח...';
+    submitBtn.disabled = true;
+
+    setTimeout(function() {
+      alert('תודה רבה! הביקורת שלכם נשלחה בהצלחה.');
+      form.reset();
+      submitBtn.textContent = originalText;
+      submitBtn.disabled = false;
+    }, 800);
+  });
+});
+
 
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 (function(){
