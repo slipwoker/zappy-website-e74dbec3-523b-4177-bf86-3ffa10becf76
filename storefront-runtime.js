@@ -14424,6 +14424,38 @@ if (document.readyState === 'complete') {
 })();
 
 
+/* Added Component Script */
+(function() {
+  const form = document.getElementById('review-form');
+  const successMsg = document.getElementById('form-success');
+  if (!form) return;
+
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    const name = form.querySelector('#reviewer-name').value.trim();
+    const rating = form.querySelector('input[name="rating"]:checked');
+    const review = form.querySelector('#review-textarea').value.trim();
+
+    if (!name || !rating || !review) {
+      alert('נא למלא את כל שדות החובה.');
+      return;
+    }
+
+    // Simulate submission
+    form.reset();
+    form.style.display = 'none';
+    successMsg.removeAttribute('hidden');
+
+    // Reset after delay for demo
+    setTimeout(function() {
+      successMsg.setAttribute('hidden', '');
+      form.style.display = '';
+    }, 5000);
+  });
+})();
+
+
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 (function(){
   try {
