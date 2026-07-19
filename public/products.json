@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-19T07:41:39.058Z",
+  "generated_at": "2026-07-19T07:54:03.434Z",
   "base_url": "https://yonatans-kitchen.zappy5.app",
   "currency": "ILS",
   "count": 8,
@@ -95,7 +95,7 @@
     },
     {
       "id": "44fc4270-03e8-4f55-990d-9d8658af728a",
-      "slug": "tbshyl-tslavt-tlh-8wcwwm",
+      "slug": "tbshyl-tslavt-tlh-qec53r",
       "name": "תבשיל צלעות טלה",
       "name_translations": {},
       "description": "",
@@ -107,13 +107,13 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://yonatans-kitchen.zappy5.app/assets/product-enhanced-1784446418185-fle82.webp"
+        "https://yonatans-kitchen.zappy5.app/assets/product-1784447599949-3kbwg.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://yonatans-kitchen.zappy5.app/product/tbshyl-tslavt-tlh-8wcwwm",
+      "url": "https://yonatans-kitchen.zappy5.app/product/tbshyl-tslavt-tlh-qec53r",
       "categories": [],
-      "updated_at": "2026-07-19T07:39:00.870Z"
+      "updated_at": "2026-07-19T07:53:31.390Z"
     },
     {
       "id": "b568f0cd-afba-4cd0-8489-a7116de7fe31",
