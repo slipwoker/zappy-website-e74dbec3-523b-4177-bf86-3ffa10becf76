@@ -1,13 +1,13 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-19T07:37:55.417Z",
+  "generated_at": "2026-07-19T07:39:06.100Z",
   "base_url": "https://yonatans-kitchen.zappy5.app",
   "currency": "ILS",
   "count": 8,
   "products": [
     {
       "id": "f9247034-7faa-4300-8215-43946331b80b",
-      "slug": "nvdls-asyyty-jcz4yl",
+      "slug": "nvdls-asyyty-cqli6s",
       "name": "נודלס אסייתי",
       "name_translations": {},
       "description": "<p>ה</p>",
@@ -23,9 +23,9 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://yonatans-kitchen.zappy5.app/product/nvdls-asyyty-jcz4yl",
+      "url": "https://yonatans-kitchen.zappy5.app/product/nvdls-asyyty-cqli6s",
       "categories": [],
-      "updated_at": "2026-07-19T05:16:51.553Z"
+      "updated_at": "2026-07-19T07:38:34.251Z"
     },
     {
       "id": "c89b7cae-c5d5-4db3-a6e2-fc11ce7e6075",
@@ -73,7 +73,7 @@
     },
     {
       "id": "497961da-a8eb-48f0-9179-8eb5789360fc",
-      "slug": "dg-mrvkay-chryp-mnkznp",
+      "slug": "dg-mrvkay-chryp-avfofh",
       "name": "דג מרוקאי חריף",
       "name_translations": {},
       "description": "",
@@ -89,13 +89,13 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://yonatans-kitchen.zappy5.app/product/dg-mrvkay-chryp-mnkznp",
+      "url": "https://yonatans-kitchen.zappy5.app/product/dg-mrvkay-chryp-avfofh",
       "categories": [],
-      "updated_at": "2026-07-18T15:19:20.622Z"
+      "updated_at": "2026-07-19T07:38:49.080Z"
     },
     {
       "id": "44fc4270-03e8-4f55-990d-9d8658af728a",
-      "slug": "tbshyl-tslavt-tlh-dyu6eb",
+      "slug": "tbshyl-tslavt-tlh-8wcwwm",
       "name": "תבשיל צלעות טלה",
       "name_translations": {},
       "description": "",
@@ -111,13 +111,13 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://yonatans-kitchen.zappy5.app/product/tbshyl-tslavt-tlh-dyu6eb",
+      "url": "https://yonatans-kitchen.zappy5.app/product/tbshyl-tslavt-tlh-8wcwwm",
       "categories": [],
-      "updated_at": "2026-07-19T07:33:46.341Z"
+      "updated_at": "2026-07-19T07:39:00.870Z"
     },
     {
       "id": "b568f0cd-afba-4cd0-8489-a7116de7fe31",
-      "slug": "tbshyl-asadv-lign7r",
+      "slug": "tbshyl-asadv-3r3bwb",
       "name": "תבשיל אסאדו ",
       "name_translations": {},
       "description": "",
@@ -133,9 +133,9 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://yonatans-kitchen.zappy5.app/product/tbshyl-asadv-lign7r",
+      "url": "https://yonatans-kitchen.zappy5.app/product/tbshyl-asadv-3r3bwb",
       "categories": [],
-      "updated_at": "2026-07-18T15:22:18.511Z"
+      "updated_at": "2026-07-19T07:38:20.855Z"
     },
     {
       "id": "1b6a489b-8de6-4e63-89e5-898b287fd0ac",

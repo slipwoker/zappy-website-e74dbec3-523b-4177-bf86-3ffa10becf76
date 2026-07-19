@@ -4527,7 +4527,7 @@ Description: Yonatan’s Kitchen - תודה - Yonatan’s Kitchen
 ## Product Catalog
 
 ### נודלס אסייתי
-URL: https://yonatans-kitchen.zappy5.app/product/nvdls-asyyty-jcz4yl
+URL: https://yonatans-kitchen.zappy5.app/product/nvdls-asyyty-cqli6s
 Price: 159.00 ILS
 Availability: In stock
 
@@ -4550,21 +4550,21 @@ Availability: In stock
 ---
 
 ### דג מרוקאי חריף
-URL: https://yonatans-kitchen.zappy5.app/product/dg-mrvkay-chryp-mnkznp
+URL: https://yonatans-kitchen.zappy5.app/product/dg-mrvkay-chryp-avfofh
 Price: 235.00 ILS
 Availability: In stock
 
 ---
 
 ### תבשיל צלעות טלה
-URL: https://yonatans-kitchen.zappy5.app/product/tbshyl-tslavt-tlh-dyu6eb
+URL: https://yonatans-kitchen.zappy5.app/product/tbshyl-tslavt-tlh-8wcwwm
 Price: 290.00 ILS
 Availability: In stock
 
 ---
 
 ### תבשיל אסאדו 
-URL: https://yonatans-kitchen.zappy5.app/product/tbshyl-asadv-lign7r
+URL: https://yonatans-kitchen.zappy5.app/product/tbshyl-asadv-3r3bwb
 Price: 239.00 ILS
 Availability: In stock
 

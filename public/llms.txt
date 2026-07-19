@@ -75,7 +75,7 @@ Information about WCAG compliance and accessibility features.
 **Total active products: 8**
 
 ### נודלס אסייתי
-https://yonatans-kitchen.zappy5.app/product/nvdls-asyyty-jcz4yl
+https://yonatans-kitchen.zappy5.app/product/nvdls-asyyty-cqli6s
 - Price: 159.00 ILS
 - Availability: In stock
 - Description: נודלס מוקפץ עם עוף או בקר גזר בצל ירוק נבטים בצל וכרוב לבן | 500 גרם
@@ -96,21 +96,21 @@ https://yonatans-kitchen.zappy5.app/product/slt-yshraly-nn3zob
 - Image: https://yonatans-kitchen.zappy5.app/assets/image-product-image-1784356816451-08ehng.webp
 
 ### דג מרוקאי חריף
-https://yonatans-kitchen.zappy5.app/product/dg-mrvkay-chryp-mnkznp
+https://yonatans-kitchen.zappy5.app/product/dg-mrvkay-chryp-avfofh
 - Price: 235.00 ILS
 - Availability: In stock
 - Description: תבשיל דג דניס מרוקאי חריף עם עגבניות צלויות גמבות| 4 יחידות (2 דגים)
 - Image: https://yonatans-kitchen.zappy5.app/assets/product-enhanced-1784356582044-76tccp.webp
 
 ### תבשיל צלעות טלה
-https://yonatans-kitchen.zappy5.app/product/tbshyl-tslavt-tlh-dyu6eb
+https://yonatans-kitchen.zappy5.app/product/tbshyl-tslavt-tlh-8wcwwm
 - Price: 290.00 ILS
 - Availability: In stock
 - Description: תבשיל צלעות כבש עם גמבות בצבעים בצל בצורות יין לבן ומרינדות של תבלינים 1 ק״ג
 - Image: https://yonatans-kitchen.zappy5.app/assets/product-enhanced-1784446418185-fle82.webp
 
 ### תבשיל אסאדו 
-https://yonatans-kitchen.zappy5.app/product/tbshyl-asadv-lign7r
+https://yonatans-kitchen.zappy5.app/product/tbshyl-asadv-3r3bwb
 - Price: 239.00 ILS
 - Availability: In stock
 - Description: תבשיל אסאדו עם בצל ומגוון פטריות וערמונים| 500 גרם
